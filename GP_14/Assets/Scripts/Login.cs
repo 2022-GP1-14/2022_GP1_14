@@ -17,7 +17,7 @@ public class Login : MonoBehaviour
     ArrayList credentials;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         loginButton.onClick.AddListener(login);
         goToRegisterButton.onClick.AddListener(moveToRegister);
@@ -36,7 +36,7 @@ public class Login : MonoBehaviour
 
 
     // Update is called once per frame
-    void login()
+    public void login()
     {
         bool isExists = false;
 
@@ -67,12 +67,12 @@ public class Login : MonoBehaviour
         }
     }
 
-    void moveToRegister()
+    public void moveToRegister()
     {
-        SceneManager.LoadScene("SignupScene");
+        SceneManager.LoadScene("SignUpScene'");
     }
 
-    void loadWelcomeScreen()
+    public void loadWelcomeScreen()
     {
         SceneManager.LoadScene("Homepage");
     }
