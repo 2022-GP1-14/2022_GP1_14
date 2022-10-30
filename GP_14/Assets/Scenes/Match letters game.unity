@@ -441,12 +441,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1010178419}
-  m_RootOrder: 1
+  m_Father: {fileID: 2065765164}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242, y: 100.99994}
+  m_AnchoredPosition: {x: 242, y: 123}
   m_SizeDelta: {x: 120, y: 106}
   m_Pivot: {x: 3.5091984, y: 1.8012736}
 --- !u!114 &496490174
@@ -493,9 +493,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 140093935}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadNumbersScene
+        m_MethodName: LoadLettersScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -855,12 +855,12 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1010178419}
-  m_RootOrder: 2
+  m_Father: {fileID: 2065765164}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -564, y: 270}
+  m_AnchoredPosition: {x: -586, y: 270}
   m_SizeDelta: {x: 120, y: 106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801851371
@@ -907,7 +907,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 140093935}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadHomeScene
         m_Mode: 1
@@ -1051,8 +1051,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2065765164}
-  - {fileID: 496490173}
-  - {fileID: 801851370}
   - {fileID: 1520157540}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1201,7 +1199,7 @@ RectTransform:
   m_Children:
   - {fileID: 518653476}
   m_Father: {fileID: 1010178419}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1252,7 +1250,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 140093935}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadProgressScene
         m_Mode: 1
@@ -1402,6 +1400,8 @@ RectTransform:
   m_Children:
   - {fileID: 13962098}
   - {fileID: 335971323}
+  - {fileID: 496490173}
+  - {fileID: 801851370}
   m_Father: {fileID: 1010178419}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

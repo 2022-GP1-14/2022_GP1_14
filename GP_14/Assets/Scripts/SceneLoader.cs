@@ -51,4 +51,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("First lesson numbers");
     }
+
+    public void loadChildProfilescene()
+    {
+        SceneManager.LoadScene("ChildProfileScene");
+    }
 }

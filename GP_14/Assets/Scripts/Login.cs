@@ -69,7 +69,7 @@ public class Login : MonoBehaviour
 
     public void moveToRegister()
     {
-        SceneManager.LoadScene("SignUpScene'");
+        SceneManager.LoadScene("SignUpScene");
     }
 
     public void loadWelcomeScreen()

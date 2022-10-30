@@ -159,7 +159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -564, y: 270}
+  m_AnchoredPosition: {x: -588, y: 266}
   m_SizeDelta: {x: 120, y: 106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &28106735
@@ -614,7 +614,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242, y: 101}
+  m_AnchoredPosition: {x: 230, y: 129}
   m_SizeDelta: {x: 120, y: 106}
   m_Pivot: {x: 3.5091984, y: 1.8012736}
 --- !u!114 &731804150
@@ -1216,7 +1216,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 557411801}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadProgressScene
         m_Mode: 1
