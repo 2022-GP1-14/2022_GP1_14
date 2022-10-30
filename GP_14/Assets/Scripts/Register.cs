@@ -4,13 +4,14 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using TMPro;
+using RTLTMPro;
 
 public class Register : MonoBehaviour
 {
 
-    public InputField usernameInput;
-    public InputField passwordInput;
+    public TMP_InputField usernameInput;
+    public TMP_InputField passwordInput;
     /*
     You can similarly add more variables here if you need more fields.
     I have added child age and child sex variables here.
@@ -18,16 +19,14 @@ public class Register : MonoBehaviour
     public InputField childAgeInput;
     public InputField childSexInput;
     */
-    public Button registerButton;
-    public Button goToLoginButton;
+
 
     ArrayList credentials;
 
     // Start is called before the first frame update
     public void Start()
     {
-        registerButton.onClick.AddListener(writeStuffToFile);
-        goToLoginButton.onClick.AddListener(goToLoginScene);
+       
 
         if (File.Exists(Application.dataPath + "/credentials.txt"))
         {
@@ -40,10 +39,7 @@ public class Register : MonoBehaviour
 
     }
 
-    public void goToLoginScene()
-    {
-        SceneManager.LoadScene("LoginScene"); //
-    }
+
 
 
     public void writeStuffToFile()

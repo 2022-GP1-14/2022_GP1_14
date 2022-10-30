@@ -5,22 +5,24 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
+using RTLTMPro;
 
 public class Login : MonoBehaviour
 {
 
-    public InputField usernameInput;
-    public InputField passwordInput;
-    public Button loginButton;
-    public Button goToRegisterButton;
+    public TMP_InputField usernameInput;
+    public TMP_InputField passwordInput;
+    //public Button loginButton;
+    //public Button goToRegisterButton;
 
     ArrayList credentials;
 
     // Start is called before the first frame update
     public void Start()
     {
-        loginButton.onClick.AddListener(login);
-        goToRegisterButton.onClick.AddListener(moveToRegister);
+        //loginButton.onClick.AddListener(login);
+        //goToRegisterButton.onClick.AddListener(moveToRegister);
 
         if (File.Exists(Application.dataPath + "/credentials.txt"))
         {
@@ -52,6 +54,7 @@ public class Login : MonoBehaviour
                 i.ToString().Substring(i.ToString().IndexOf(":") + 1).Equals(passwordInput.text))
             {
                 isExists = true;
+                SceneManager.LoadScene("Homepage");
                 break;
             }
         }
