@@ -15,9 +15,15 @@ C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 54975
 Successfully changed project path to: C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
 C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
+=======
+61395
+Successfully changed project path to: C:/Users/Remah/OneDrive/سطح المكتب/2022_GP1_14-main (1)/2022_GP1_14-main/GP_14
+C:/Users/Remah/OneDrive/سطح المكتب/2022_GP1_14-main (1)/2022_GP1_14-main/GP_14
+>>>>>>> fb4bb12e5e5a77831cd44aaefa42d01e6995361f
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,7 +53,11 @@ C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 286.19 ms, found 3 plugins.
+=======
+Refreshing native plugins compatible for Editor in 163.87 ms, found 3 plugins.
+>>>>>>> fb4bb12e5e5a77831cd44aaefa42d01e6995361f
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -62,11 +72,16 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+>>>>>>> fb4bb12e5e5a77831cd44aaefa42d01e6995361f
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.030270 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
@@ -77,10 +92,23 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (3442ms)
 		BeginReloadAssembly (1273ms)
+=======
+Registered in 0.010568 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 183.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1466ms)
+		BeginReloadAssembly (219ms)
+>>>>>>> fb4bb12e5e5a77831cd44aaefa42d01e6995361f
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (3ms)
 		EndReloadAssembly (1798ms)
 			LoadAssemblies (1266ms)
@@ -96,18 +124,40 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (6ms)
 				ProcessInitializeOnLoadAttributes (336ms)
 				ProcessInitializeOnLoadMethodAttributes (130ms)
+=======
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (217ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (726ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (196ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (184ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+>>>>>>> fb4bb12e5e5a77831cd44aaefa42d01e6995361f
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.022261 seconds.
+=======
+Registered in 0.012651 seconds.
+>>>>>>> fb4bb12e5e5a77831cd44aaefa42d01e6995361f
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\OneDrive\Desktop\GP_Code\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\OneDrive\Desktop\GP_Code\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -115,10 +165,20 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (4333ms)
 		BeginReloadAssembly (573ms)
+=======
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.111 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2113ms)
+		BeginReloadAssembly (428ms)
+>>>>>>> fb4bb12e5e5a77831cd44aaefa42d01e6995361f
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (24ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (143ms)
 		EndReloadAssembly (3028ms)
 			LoadAssemblies (548ms)
@@ -2125,6 +2185,37 @@ Unloading 3631 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 21 unused Assets / (80.2 KB). Loaded Objects now: 4253.
 Memory consumption went from 132.5 MB to 132.4 MB.
 Total: 6.442300 ms (FindLiveObjects: 0.448900 ms CreateObjectMapping: 0.405500 ms MarkObjects: 5.451300 ms  DeleteObjects: 0.135000 ms)
+=======
+			CreateAndSetChildDomain (149ms)
+		EndReloadAssembly (1481ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (571ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (618ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (383ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3648 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (113.9 KB). Loaded Objects now: 4107.
+Memory consumption went from 129.3 MB to 129.2 MB.
+Total: 7.442900 ms (FindLiveObjects: 0.521000 ms CreateObjectMapping: 0.483700 ms MarkObjects: 6.190500 ms  DeleteObjects: 0.245200 ms)
+>>>>>>> fb4bb12e5e5a77831cd44aaefa42d01e6995361f
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
