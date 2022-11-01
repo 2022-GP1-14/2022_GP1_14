@@ -5,12 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/SignUpScene.unity
     guid: fdf8482114b3b6e48bc2845cbe7917b6
@@ -36,14 +30,8 @@ EditorBuildSettings:
     path: Assets/Scenes/First lesson letters.unity
     guid: 15edf137ac0515e4f96665191cc8bc7b
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 1
     path: Assets/Scenes/Match letters game.unity
     guid: 7ddfc1418e8e08940b07bf1d04d5e137
-  - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/pdfreportpage.unity
     guid: 348a7ddf38d687141b1c91fb8992ff15
@@ -53,9 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoginScene.unity
     guid: cb7b4fd78c1ccdb4c831cd1e02049ef2
-  - enabled: 1
-    path: Assets/Scenes/SignUpScene'.unity
-    guid: 7a20cdd0fd6b662488178dfcdb600fac
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/WarningScene.unity
     guid: be38b599692e1134f93997ae0328196a
@@ -65,6 +53,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/You pass2.unity
     guid: 030ebfa4f1fcd8241bf13c5ab9f33e17
+  - enabled: 1
+    path: Assets/Scenes/NumbersClassroom.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: a2540018563bf0645b93b6446ba8e67a, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 7c956be033e70684c975ad6c86dd436a, type: 2}

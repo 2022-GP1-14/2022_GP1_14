@@ -56,4 +56,20 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("ChildProfileScene");
     }
+
+    public void loadNumbersClassroom()
+    {
+        SceneManager.LoadScene("NumbersClassroom");
+    }
+
+    public void LogOut()
+    {
+        SceneManager.LoadScene("LoginScene");
+        PlayerPrefs.SetInt("Logged", 0);
+    }
+
+    public void loadPassPage()
+    {
+        SceneManager.LoadScene("You pass");
+    }
 }

@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 50bf15468c19e0e40b5bf26662770a34, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.6413469, g: 0.86585736, b: 0.88078934, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: -166}
+  m_AnchoredPosition: {x: 10, y: -193}
   m_SizeDelta: {x: 968.1617, y: 352.3301}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &780302888
@@ -207,9 +207,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1305623333}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: loadcountingscene
+        m_MethodName: LoadHomeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696ce2cd40d49484ab618bf74d31d4ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: "\u0647\u064A\u0627 \u0646\u0644\u0639\u0628"
+  Text: "\u0627\u0644\u0635\u0641\u062D\u0629 \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629"
   ShowTashkeel: 0
   UseHinduNumbers: 0
 --- !u!114 &1015375032
@@ -427,7 +427,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 177
+    m_FontSize: 128
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -438,7 +438,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uFE90\uFECC\uFEE0\uFEE7 \uFE8E\uFEF4\uFEEB"
+  m_Text: "\uFE94\uFEF4\uFEB4\uFEF4\uFE8B\uFEAE\uFEDF\u0627 \uFE94\uFEA4\uFED4\uFEBC\uFEDF\u0627"
 --- !u!222 &1015375033
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -796,8 +796,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Text: "\u0645\u0628\u0631\u0648\u0643 \u0644\u0642\u062F \u0627\u0646\u062A\u0647\u064A\u062A
-    \u0645\u0646 \u0627\u0644\u062F\u0631\u0633 \u064A\u0645\u0643\u0646\u0643 \u0627\u0644\u0644\u0639\u0628
-    \u0627\u0644\u0622\u0646"
+    \u0645\u0646 \u0627\u0644\u062F\u0631\u0633\n\u064A\u0645\u0643\u0646\u0643 \u0627\u0644\u0631\u062C\u0648\u0639
+    \u0625\u0644\u0649 \u0627\u0644\u0635\u0641\u062D\u0629 \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629"
   ShowTashkeel: 0
   UseHinduNumbers: 0
 --- !u!114 &1975795131
@@ -834,8 +834,8 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\u0633\u0631\uFEAA\uFEDF\u0627 \uFEE6\uFEE3 \uFE96\uFEF4\uFEEC\uFE98\uFEE7\u0627
-    \uFEAA\uFED8\uFEDF \u0643\u0648\uFEAE\uFE92\uFEE3\n\u0646\uFEF5\u0627 \uFE90\uFECC\uFEE0\uFEDF\u0627
-    \uFEDA\uFEE8\uFEDC\uFEE4\uFEF3"
+    \uFEAA\uFED8\uFEDF \u0643\u0648\uFEAE\uFE92\uFEE3\n\uFE94\uFEA4\uFED4\uFEBC\uFEDF\u0627
+    \uFEF0\uFEDF\u0625 \u0639\uFEEE\uFE9F\uFEAE\uFEDF\u0627 \uFEDA\uFEE8\uFEDC\uFEE4\uFEF3\n\uFE94\uFEF4\uFEB4\uFEF4\uFE8B\uFEAE\uFEDF\u0627"
 --- !u!222 &1975795132
 CanvasRenderer:
   m_ObjectHideFlags: 0
