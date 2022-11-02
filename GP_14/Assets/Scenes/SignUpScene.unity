@@ -2227,8 +2227,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 416884101}
   m_TextComponent: {fileID: 1439403838}
   m_Placeholder: {fileID: 0}
-  m_ContentType: 0
-  m_InputType: 0
+  m_ContentType: 7
+  m_InputType: 2
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
@@ -3655,13 +3655,13 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 700980578}
   m_TextComponent: {fileID: 424017810}
   m_Placeholder: {fileID: 0}
-  m_ContentType: 0
+  m_ContentType: 5
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 6
   m_LineType: 0
   m_HideMobileInput: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 4
   m_CharacterLimit: 0
   m_OnSubmit:
     m_PersistentCalls:
@@ -7665,7 +7665,7 @@ MonoBehaviour:
   childNameInput: {fileID: 700980580}
   userNames: []
   userPasswords: []
-  registerButton: {fileID: 0}
+  registerButton: {fileID: 631645114}
 --- !u!1 &1632709456
 GameObject:
   m_ObjectHideFlags: 0
