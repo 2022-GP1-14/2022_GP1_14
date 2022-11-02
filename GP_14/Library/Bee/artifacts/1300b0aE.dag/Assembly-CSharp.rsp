@@ -360,6 +360,7 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Arabic/Abdullah Al-Imam/Arabic Support UI/Script/ArabicText.cs"
 "Assets/Scripts/AutoSave.cs"
+"Assets/Scripts/ChildProfileManager.cs"
 "Assets/Scripts/Consent.cs"
 "Assets/Scripts/Fix3dTextCS.cs"
 "Assets/Scripts/HomeButton.cs"

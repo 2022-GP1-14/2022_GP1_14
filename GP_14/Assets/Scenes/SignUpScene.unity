@@ -6461,6 +6461,7 @@ MonoBehaviour:
   passwordInput: {fileID: 416884103}
   childNameInput: {fileID: 700980580}
   userNames: []
+  childNames: []
   userPasswords: []
   registerButton: {fileID: 631645114}
 --- !u!4 &1346147772
@@ -7664,6 +7665,7 @@ MonoBehaviour:
   passwordInput: {fileID: 416884103}
   childNameInput: {fileID: 700980580}
   userNames: []
+  childNames: []
   userPasswords: []
   registerButton: {fileID: 631645114}
 --- !u!1 &1632709456

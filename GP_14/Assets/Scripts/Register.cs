@@ -16,12 +16,15 @@ public class Register : MonoBehaviour
     public InputField childNameInput;
     private int usersCount;
     private int usersPasswordscount;
+    private int UserChildname;
+
 
     public string[] userNames;
+    public string[] childNames;
     public string[] userPasswords;
 
 
-    private int users, passwords;
+    private int users, passwords, childName;
 
     /*
     You can similarly add more variables here if you need more fields.
@@ -54,10 +57,14 @@ public class Register : MonoBehaviour
         // Retrieve the number of registered users
         usersCount = PlayerPrefs.GetInt("UsersCount", 0);
         usersPasswordscount = PlayerPrefs.GetInt("UsersPasswords", 0);
+        UserChildname = PlayerPrefs.GetInt("UsersChildName", 0);
+
 
 
         Debug.Log(usersCount);
         Debug.Log(usersPasswordscount);
+        Debug.Log(UserChildname);
+
 
         if (usersCount > 0)
         {
@@ -84,6 +91,19 @@ public class Register : MonoBehaviour
             }
         }
 
+        if (UserChildname > 0)
+        {
+            // Create the user name array...
+            childNames = new string[UserChildname];
+            for (int index = 0; index < UserChildname; index++)
+            {
+                // ... and load them.
+                childNames[index] = PlayerPrefs.GetString("ChildName" + index);
+                Debug.Log(childNames[index].ToString());
+                childName = index;
+            }
+        }
+
 
     }
     public void SaveUserName()
@@ -91,6 +111,13 @@ public class Register : MonoBehaviour
         PlayerPrefs.SetString("User" + usersCount, usernameInput.text);
         usersCount++;
         PlayerPrefs.SetInt("UsersCount", usersCount);
+        PlayerPrefs.Save();
+    }
+    public void SaveChildName()
+    {
+        PlayerPrefs.SetString("ChildName" + UserChildname, childNameInput.text);
+        UserChildname++;
+        PlayerPrefs.SetInt("UsersChildName", UserChildname);
         PlayerPrefs.Save();
     }
     public void SaveUserPassword()
@@ -107,6 +134,7 @@ public class Register : MonoBehaviour
     {
         SaveUserName();
         SaveUserPassword();
+        SaveChildName();
         StartCoroutine(Delay());
     }
 
