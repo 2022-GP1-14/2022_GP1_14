@@ -4,16 +4,18 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using static UnityEngine.UIElements.UxmlAttributeDescription;
 using UnityEditor;
+using RTLTMPro;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Register : MonoBehaviour
 {
 
-    public InputField usernameInput;
-    public InputField passwordInput;
-    public InputField childNameInput;
+    public TMP_InputField usernameInput;
+    public TMP_InputField passwordInput;
+    public TMP_InputField childNameInput;
     private int usersCount;
     private int usersPasswordscount;
     private int UserChildname;
@@ -29,12 +31,11 @@ public class Register : MonoBehaviour
     /*
     You can similarly add more variables here if you need more fields.
     I have added child age and child sex variables here.
-
     public InputField childAgeInput;
     public InputField childSexInput;
     */
     public Button registerButton;
-   // public Button goToLoginButton;
+    // public Button goToLoginButton;
 
     ArrayList credentials;
 

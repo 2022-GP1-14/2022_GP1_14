@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using System.Reflection;
+using RTLTMPro;
+using TMPro;
+using UnityEngine.SceneManagement;
 
 public class Login : MonoBehaviour
 {
@@ -16,7 +18,7 @@ public class Login : MonoBehaviour
     public Button goToRegisterButton;
     private int usersCount,usersPasswordscount;
     private int users,passwords;
-   // public GameObject alertpopUp;
+    public GameObject alertpopUp;
     public string[] userNames;
     public string[] userPasswords;
 
@@ -25,7 +27,7 @@ public class Login : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-     //   alertpopUp.SetActive(false);
+        alertpopUp.SetActive(false);
 
         //  loginButton.onClick.AddListener(adminDetails);
         // goToRegisterButton.onClick.AddListener(moveToRegister);
@@ -150,7 +152,7 @@ public class Login : MonoBehaviour
     IEnumerator Delay()
     {
         yield return new WaitForSeconds(1.5f);
-       // alertpopUp.SetActive(true);
+        alertpopUp.SetActive(true);
 
     }
 }

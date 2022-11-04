@@ -562,6 +562,8 @@ GameObject:
   - component: {fileID: 106244542}
   - component: {fileID: 106244543}
   - component: {fileID: 106244544}
+  - component: {fileID: 106244545}
+  - component: {fileID: 106244546}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -605,7 +607,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 106244541}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58f41a37f2ee60a4189d739e245cca61, type: 3}
+  m_Script: {fileID: 11500000, guid: fa0197bdd6505e7439183ade48cc0c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usernameInput: {fileID: 0}
+  passwordInput: {fileID: 0}
+  loginButton: {fileID: 0}
+  goToRegisterButton: {fileID: 0}
+  alertpopUp: {fileID: 0}
+  userNames: []
+  userPasswords: []
+--- !u!114 &106244545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106244541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2f94b172bc40784484777f85c9679a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usernameInput: {fileID: 0}
+  passwordInput: {fileID: 0}
+  alertpopUp: {fileID: 0}
+  userNames: []
+  userPasswords: []
+--- !u!114 &106244546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106244541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcc4ec9eb242cf439175afd99c93dad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   childNames: []

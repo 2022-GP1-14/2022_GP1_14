@@ -3261,7 +3261,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1346147771}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Register, Assembly-CSharp
         m_MethodName: goToLoginScene
         m_Mode: 1
@@ -6049,7 +6049,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1346147771}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Register, Assembly-CSharp
         m_MethodName: goToLoginScene
         m_Mode: 1
@@ -6437,7 +6437,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1346147772}
-  - component: {fileID: 1346147771}
+  - component: {fileID: 1346147773}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -6445,25 +6445,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1346147771
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1346147770}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 294bf6f5ccaaca847be33190538b87ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  usernameInput: {fileID: 1116273474}
-  passwordInput: {fileID: 416884103}
-  childNameInput: {fileID: 700980580}
-  userNames: []
-  childNames: []
-  userPasswords: []
-  registerButton: {fileID: 631645114}
 --- !u!4 &1346147772
 Transform:
   m_ObjectHideFlags: 0
@@ -6479,6 +6460,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1346147773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346147770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294bf6f5ccaaca847be33190538b87ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usernameInput: {fileID: 0}
+  passwordInput: {fileID: 0}
+  childNameInput: {fileID: 0}
+  userNames: []
+  childNames: []
+  userPasswords: []
+  registerButton: {fileID: 631645114}
 --- !u!1 &1384870581
 GameObject:
   m_ObjectHideFlags: 0
@@ -7465,7 +7465,6 @@ GameObject:
   - component: {fileID: 1628773154}
   - component: {fileID: 1628773153}
   - component: {fileID: 1628773152}
-  - component: {fileID: 1628773160}
   m_Layer: 5
   m_Name: Register
   m_TagString: Untagged
@@ -7649,25 +7648,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1628773160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1628773151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 294bf6f5ccaaca847be33190538b87ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  usernameInput: {fileID: 1116273474}
-  passwordInput: {fileID: 416884103}
-  childNameInput: {fileID: 700980580}
-  userNames: []
-  childNames: []
-  userPasswords: []
-  registerButton: {fileID: 631645114}
 --- !u!1 &1632709456
 GameObject:
   m_ObjectHideFlags: 0
