@@ -1,4 +1,4 @@
-Project title: Autisme
+# Project title: Autisme
 
 introduction: The project aims to provide an interactive mobile application based on VR technology in order to support the educational process for autistic children 
 and helping their parents in teaching them at home. Our application will mix learn and play within an attractive environment.
