@@ -9,8 +9,10 @@ and helping their parents in teaching them at home. Our application will mix lea
 # 🛠 technology
 By using the Unity game engine which provides us with a powerful cross-platform IDE and using C# language for coding the script. 
 
-launching instructions (briefly).Adding Sprint-1 files
 
 ### Built With
 
 [![My Skills](https://skills.thijs.gg/icons?i=vscode,cs)](https://skills.thijs.gg)
+
+# Instructions fo  Installation
+launching instructions (briefly).Adding Sprint-1 files
