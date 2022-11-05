@@ -13,4 +13,6 @@ By using the Unity game engine which provides us with a powerful cross-platform 
 
 launching instructions (briefly).Adding Sprint-1 files
 
+### Built With
 
+[![My Skills](https://skills.thijs.gg/icons?i=vscode,cs)](https://skills.thijs.gg)
