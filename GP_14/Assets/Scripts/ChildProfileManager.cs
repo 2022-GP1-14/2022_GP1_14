@@ -1,7 +1,14 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.UIElements.UxmlAttributeDescription;
+using UnityEditor;
+using RTLTMPro;
+using TMPro;
+
 
 
 public class ChildProfileManager : MonoBehaviour
@@ -13,8 +20,11 @@ public class ChildProfileManager : MonoBehaviour
     public string[] userNames;
 
     private int users, passwords, childName;
-    public InputField ChildNameInput;
-    public InputField UserNameInput;
+    //public InputField ChildNameInput;
+    //public InputField UserNameInput;
+    public TMP_InputField usernameInput;
+    //public TMP_InputField passwordInput;
+    public TMP_InputField childNameInput;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +42,7 @@ public class ChildProfileManager : MonoBehaviour
                 childNames[index] = PlayerPrefs.GetString("ChildName" + index);
                 Debug.Log(childNames[index].ToString());
                 childName = index;
-                ChildNameInput.text = childNames[childName];
+                childNameInput.text = childNames[childName];
 
             }
         }
@@ -49,7 +59,7 @@ public class ChildProfileManager : MonoBehaviour
                 userNames[index] = PlayerPrefs.GetString("User" + index);
                 Debug.Log(userNames[index].ToString());
                 users = index;
-                UserNameInput.text = userNames[users];
+                usernameInput.text = userNames[users];
 
             }
         }

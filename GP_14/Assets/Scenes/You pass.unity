@@ -151,7 +151,7 @@ RectTransform:
   m_GameObject: {fileID: 780302886}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5003906, y: 0.47672552, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1015375030}
@@ -160,8 +160,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: -193}
-  m_SizeDelta: {x: 968.1617, y: 352.3301}
+  m_AnchoredPosition: {x: 34.345, y: -233}
+  m_SizeDelta: {x: 610, y: 165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &780302888
 MonoBehaviour:
@@ -426,8 +426,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 128
+    m_Font: {fileID: 12800000, guid: a0624914594e4f340950ee38873adb46, type: 3}
+    m_FontSize: 60
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -780,9 +780,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 328, y: 92}
-  m_SizeDelta: {x: 1104.5796, y: 763.98}
-  m_Pivot: {x: 0.7659919, y: 0.5}
+  m_AnchoredPosition: {x: 34, y: 92}
+  m_SizeDelta: {x: 1104, y: 763}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1975795130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -795,7 +795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696ce2cd40d49484ab618bf74d31d4ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: "\u0645\u0628\u0631\u0648\u0643 \u0644\u0642\u062F \u0627\u0646\u062A\u0647\u064A\u062A
+  Text: "\u0645\u0628\u0631\u0648\u0643\n \u0644\u0642\u062F \u0627\u0646\u062A\u0647\u064A\u062A
     \u0645\u0646 \u0627\u0644\u062F\u0631\u0633\n\u064A\u0645\u0643\u0646\u0643 \u0627\u0644\u0631\u062C\u0648\u0639
     \u0625\u0644\u0649 \u0627\u0644\u0635\u0641\u062D\u0629 \u0627\u0644\u0631\u0626\u064A\u0633\u064A\u0629"
   ShowTashkeel: 0
@@ -821,8 +821,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_Font: {fileID: 12800000, guid: a0624914594e4f340950ee38873adb46, type: 3}
+    m_FontSize: 68
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -833,9 +833,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0633\u0631\uFEAA\uFEDF\u0627 \uFEE6\uFEE3 \uFE96\uFEF4\uFEEC\uFE98\uFEE7\u0627
-    \uFEAA\uFED8\uFEDF \u0643\u0648\uFEAE\uFE92\uFEE3\n\uFE94\uFEA4\uFED4\uFEBC\uFEDF\u0627
-    \uFEF0\uFEDF\u0625 \u0639\uFEEE\uFE9F\uFEAE\uFEDF\u0627 \uFEDA\uFEE8\uFEDC\uFEE4\uFEF3\n\uFE94\uFEF4\uFEB4\uFEF4\uFE8B\uFEAE\uFEDF\u0627"
+  m_Text: "\u0643\u0648\uFEAE\uFE92\uFEE3\n\u0633\u0631\uFEAA\uFEDF\u0627 \uFEE6\uFEE3
+    \uFE96\uFEF4\uFEEC\uFE98\uFEE7\u0627 \uFEAA\uFED8\uFEDF\n\uFE94\uFEF4\uFEB4\uFEF4\uFE8B\uFEAE\uFEDF\u0627
+    \uFE94\uFEA4\uFED4\uFEBC\uFEDF\u0627 \uFEF0\uFEDF\u0625 \u0639\uFEEE\uFE9F\uFEAE\uFEDF\u0627
+    \uFEDA\uFEE8\uFEDC\uFEE4\uFEF3"
 --- !u!222 &1975795132
 CanvasRenderer:
   m_ObjectHideFlags: 0

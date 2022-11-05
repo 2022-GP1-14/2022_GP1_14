@@ -10,7 +10,7 @@ using RTLTMPro;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Register : MonoBehaviour
+public class Register1 : MonoBehaviour
 {
 
     public TMP_InputField usernameInput;

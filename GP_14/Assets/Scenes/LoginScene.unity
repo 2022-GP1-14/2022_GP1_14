@@ -6094,7 +6094,9 @@ MonoBehaviour:
   passwordInput: {fileID: 0}
   childNameInput: {fileID: 0}
   userNames: []
+  childNames: []
   userPasswords: []
+  registerButton: {fileID: 0}
 --- !u!1 &1639511136
 GameObject:
   m_ObjectHideFlags: 0
@@ -6602,10 +6604,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8.3
-  m_fontSizeBase: 14
+  m_fontSize: 7
+  m_fontSizeBase: 7
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 1
   m_fontSizeMax: 50
   m_fontStyle: 2
@@ -7169,9 +7171,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -492, y: -440}
-  m_SizeDelta: {x: 435.8436, y: 404.15}
-  m_Pivot: {x: 0.5, y: -1.140566}
+  m_AnchoredPosition: {x: -492, y: 222}
+  m_SizeDelta: {x: 435, y: 404}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1829435658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7645,10 +7647,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 9.7
-  m_fontSizeBase: 14
+  m_fontSize: 7
+  m_fontSizeBase: 7
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 1
   m_fontSizeMax: 50
   m_fontStyle: 2
