@@ -1,7 +1,9 @@
 # Autisme Appliction
+
+<div align="center">
 ![Autisme-logo without background 12](https://user-images.githubusercontent.com/114611487/200125297-6f197c9a-22e3-432f-b61e-5fb4bd040060.png)
 
-
+</div>
 # Introduction
 The project aims to provide an interactive mobile application based on VR technology in order to support the educational process for autistic children 
 and helping their parents in teaching them at home. Our application will mix learn and play within an attractive environment.
