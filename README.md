@@ -12,7 +12,7 @@ By using the Unity game engine which provides us with a powerful cross-platform 
 
 ### Built With
 
-[![My Skills](https://skills.thijs.gg/icons?i=vscode,cs)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=visualstudio,cs)](https://skills.thijs.gg)
 
 # Instructions fo  Installation
 launching instructions (briefly).Adding Sprint-1 files
