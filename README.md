@@ -13,11 +13,4 @@ By using the Unity game engine which provides us with a powerful cross-platform 
 
 launching instructions (briefly).Adding Sprint-1 files
 
-### Built With
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-
-* [![Bootstrap][Bootstrap.com]][vscode-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
