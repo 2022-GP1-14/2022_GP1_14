@@ -58,7 +58,7 @@ By using the Unity game engine which provides us with a powerful cross-platform 
      </ul>
     </ol>
     
-### Instructions fo  Installation
+### Instructions for  Installation
   
   <ul>
 
