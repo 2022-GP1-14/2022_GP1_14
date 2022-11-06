@@ -64,9 +64,9 @@ By using the Unity game engine which provides us with a powerful cross-platform 
 
 #### Pre-requisites: <br>
 <li>download and install any Unity version using Unity Hub which is available online.</li>
-on github 
  </ul>
  
+ ####  on github:
  <ol>
 <li>clone the repository on any empty folder on your computer </li>
 <li>go to unity hub and click on open and on add project from disk</li>
