@@ -55,8 +55,23 @@ By using the Unity game engine which provides us with a powerful cross-platform 
       <ul>
         <li>Unity</li>
         <li>visualstudio</li>
-      </ul>
+     </ul>
     </ol>
     
 ### Instructions fo  Installation
-launching instructions (briefly).Adding Sprint-1 files
+  
+  <ul>
+
+#### Pre-requisites: <br>
+<li>download and install any Unity version using Unity Hub which is available online.</li>
+on github 
+ </ul>
+ 
+ <ol>
+<li>clone the repository on any empty folder on your computer </li>
+<li>go to unity hub and click on open and on add project from disk</li>
+<li>select the folder with repository that was selected before and select the unity project inside  </li>
+<li>wait for installation and now the project should be install on you device</li>
+  </ol>
+  
+
