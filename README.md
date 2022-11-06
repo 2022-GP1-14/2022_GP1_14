@@ -53,7 +53,7 @@ By using the Unity game engine which provides us with a powerful cross-platform 
  
  <ol>
       <ul>
-        <li>Unity</li>
+        <li> Unity 2021.3.10f1</li>
         <li>visualstudio</li>
      </ul>
     </ol>
@@ -61,8 +61,6 @@ By using the Unity game engine which provides us with a powerful cross-platform 
 ### Instructions for  Installation
   
   <ul>
-
-#### Pre-requisites: <br>
 <li>download and install any Unity version using Unity Hub which is available online.</li>
  </ul>
  
