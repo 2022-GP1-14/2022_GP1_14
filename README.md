@@ -55,7 +55,7 @@ By using the Unity game engine which provides us with a powerful cross-platform 
  <ol>
       <ul>
         <li> Unity 2021.3.10f1</li>
-        <li>visualstudio</li>
+        <li>Visual Studio</li>
      </ul>
     </ol>
     
