@@ -613,10 +613,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 106244542}
-  - component: {fileID: 106244543}
   - component: {fileID: 106244544}
   - component: {fileID: 106244545}
   - component: {fileID: 106244546}
+  - component: {fileID: 106244547}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -639,18 +639,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &106244543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 106244541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1579f10ee24dec64a83d299178d2625b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &106244544
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -703,6 +691,18 @@ MonoBehaviour:
   userNames: []
   usernameInput: {fileID: 0}
   childNameInput: {fileID: 0}
+--- !u!114 &106244547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106244541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1579f10ee24dec64a83d299178d2625b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &194423291
 GameObject:
   m_ObjectHideFlags: 0
@@ -2689,7 +2689,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 106244543}
+      - m_Target: {fileID: 106244547}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadProgressScene
         m_Mode: 1
@@ -2919,7 +2919,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 106244543}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadHomeScene
         m_Mode: 1
@@ -3370,8 +3370,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
+    m_Font: {fileID: 12800000, guid: a0624914594e4f340950ee38873adb46, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3474,7 +3474,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 106244543}
+      - m_Target: {fileID: 106244547}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LogOut
         m_Mode: 1

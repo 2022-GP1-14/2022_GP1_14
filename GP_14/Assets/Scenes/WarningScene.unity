@@ -640,8 +640,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 70
+    m_Font: {fileID: 12800000, guid: a0624914594e4f340950ee38873adb46, type: 3}
+    m_FontSize: 62
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -652,9 +652,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u0644\uFEEE\uFEC3\u0623 \u0629\uFEAA\uFEE4\uFEDF \u0632\uFE8E\uFEEC\uFEA0\uFEDF\u0627
-    \u0645\uFEAA\uFEA8\uFE98\uFEB4\uFEF3 \uFEDA\uFEE0\uFED4\uFEC3 \u0639\uFEAA\uFE97
-    \uFEFB\n\uFE94\uFED8\uFEF4\uFED7\u062F 20 \uFEE6\uFEE3"
+  m_Text: "\u0629\uFEAA\uFEE4\uFEDF \u0632\uFE8E\uFEEC\uFEA0\uFEDF\u0627 \u0645\uFEAA\uFEA8\uFE98\uFEB4\uFEF3
+    \uFEDA\uFEE0\uFED4\uFEC3 \u0639\uFEAA\uFE97 \uFEFB\n\uFE94\uFED8\uFEF4\uFED7\u062F
+    20 \uFEE6\uFEE3 \u0644\uFEEE\uFEC3\u0623"
 --- !u!222 &1279841977
 CanvasRenderer:
   m_ObjectHideFlags: 0

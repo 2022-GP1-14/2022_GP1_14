@@ -120,7 +120,9 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
+-define:STARTER_ASSETS_PACKAGES_CHECKED
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"Assets/Arabic/Abdullah Al-Imam/Arabic Support UI/Lib/ArabicSupport.dll"
@@ -330,9 +332,12 @@
 -r:"C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Cinemachine.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/RTLTMPro-Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/RTLTMPro.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1300b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/Unity.Rider.Editor.ref.dll"
@@ -366,18 +371,29 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Arabic/Abdullah Al-Imam/Arabic Support UI/Script/ArabicText.cs"
+"Assets/MouseLook.cs"
+"Assets/PlayerMovement.cs"
+"Assets/Scripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/ChildProfileManager.cs"
 "Assets/Scripts/Consent.cs"
+"Assets/Scripts/FirstPersonController.cs"
 "Assets/Scripts/HomeButton.cs"
 "Assets/Scripts/LoadingBar.cs"
 "Assets/Scripts/Login.cs"
 "Assets/Scripts/Login1.cs"
+"Assets/Scripts/MobileDisableAutoSwitchControls.cs"
 "Assets/Scripts/popUp.cs"
 "Assets/Scripts/Register1.cs"
 "Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/TimerLoader.cs"
+"Assets/Scripts/UICanvasControllerInput.cs"
+"Assets/Scripts/UIVirtualButton.cs"
+"Assets/Scripts/UIVirtualJoystick.cs"
+"Assets/Scripts/UIVirtualTouchZone.cs"
 "Assets/Scripts/VideoPlay.cs"
 "Assets/Scripts/VideoPlay1.cs"
+"Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
+"Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

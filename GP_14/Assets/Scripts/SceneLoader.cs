@@ -72,4 +72,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("You pass");
     }
+
+    public void loadPlayground()
+    {
+        SceneManager.LoadScene("Playground");
+    }
 }
