@@ -29,8 +29,7 @@ public class Register1 : MonoBehaviour
     private int users, passwords, childName;
 
     /*
-    You can similarly add more variables here if you need more fields.
-    I have added child age and child sex variables here.
+    we will add more variables here for more fields.
     public InputField childAgeInput;
     public InputField childSexInput;
     */
@@ -39,7 +38,7 @@ public class Register1 : MonoBehaviour
 
     ArrayList credentials;
 
-    // Start is called before the first frame update
+   
     public void Start()
     {
         // registerButton.onClick.AddListener(writeStuffToFile);
@@ -69,11 +68,11 @@ public class Register1 : MonoBehaviour
 
         if (usersCount > 0)
         {
-            // Create the user name array...
+            // Create the usernames array
             userNames = new string[usersCount];
             for (int index = 0; index < usersCount; index++)
             {
-                // ... and load them.
+                
                 userNames[index] = PlayerPrefs.GetString("User" + index);
                 Debug.Log(userNames[index].ToString());
                 users = index;
@@ -81,11 +80,11 @@ public class Register1 : MonoBehaviour
         }
         if (usersPasswordscount > 0)
         {
-            // Create the user name array...
+            // Create the passwords array...
             userPasswords = new string[usersPasswordscount];
             for (int index = 0; index < usersPasswordscount; index++)
             {
-                // ... and load them.
+                
                 userPasswords[index] = PlayerPrefs.GetString("Password" + index);
                 Debug.Log(userPasswords[index].ToString());
                 passwords = index;
@@ -94,11 +93,11 @@ public class Register1 : MonoBehaviour
 
         if (UserChildname > 0)
         {
-            // Create the user name array...
+            // Create the childnames array...
             childNames = new string[UserChildname];
             for (int index = 0; index < UserChildname; index++)
             {
-                // ... and load them.
+                
                 childNames[index] = PlayerPrefs.GetString("ChildName" + index);
                 Debug.Log(childNames[index].ToString());
                 childName = index;

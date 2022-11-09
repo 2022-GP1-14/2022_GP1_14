@@ -22,7 +22,7 @@ public class Login1 : MonoBehaviour
 
     ArrayList credentials;
 
-    // Start is called before the first frame update
+    
     public void Start()
     {
         alertpopUp.SetActive(false);
@@ -45,11 +45,11 @@ public class Login1 : MonoBehaviour
 
         if (usersCount > 0)
         {
-            // Create the user name array...
+            
             userNames = new string[usersCount];
             for (int index = 0; index < usersCount; index++)
             {
-                // ... and load them.
+                
                 userNames[index] = PlayerPrefs.GetString("User" + index);
                // Debug.Log(userNames[index].ToString());
                 users = index;
@@ -57,11 +57,11 @@ public class Login1 : MonoBehaviour
         }
         if (usersPasswordscount > 0)
         {
-            // Create the user name array...
+            
             userPasswords = new string[usersPasswordscount];
             for (int index = 0; index < usersPasswordscount; index++)
             {
-                // ... and load them.
+                
                 userPasswords[index] = PlayerPrefs.GetString("Password" + index);
                 //Debug.Log(userPasswords[index].ToString());
                 passwords = index;
