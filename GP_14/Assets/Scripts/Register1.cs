@@ -19,7 +19,7 @@ public class Register1 : MonoBehaviour
     private int usersCount;
     private int usersPasswordscount;
     private int UserChildname;
-
+    public GameObject WarningText;
 
     public string[] userNames;
     public string[] childNames;
@@ -41,6 +41,7 @@ public class Register1 : MonoBehaviour
    
     public void Start()
     {
+        WarningText.gameObject.SetActive(false);
         // registerButton.onClick.AddListener(writeStuffToFile);
         // goToLoginButton.onClick.AddListener(goToLoginScene);
 
@@ -132,12 +133,30 @@ public class Register1 : MonoBehaviour
 
     public void goToLoginScene()
     {
-        SaveUserName();
-        SaveUserPassword();
-        SaveChildName();
-        StartCoroutine(Delay());
+        if (string.IsNullOrEmpty(passwordInput.text) || string.IsNullOrEmpty(usernameInput.text) || string.IsNullOrEmpty(childNameInput.text))
+        {
+            //Warningtext.text = "«·—Ã«¡  ⁄»∆… Ã„Ì⁄ «·ÕﬁÊ·";
+            WarningText.gameObject.SetActive(true);
+            StartCoroutine(Delay1());
+        }
+
+        else
+        {
+            WarningText.gameObject.SetActive(false);
+            SaveUserName();
+            SaveUserPassword();
+            StartCoroutine(Delay());
+        }
     }
 
+    IEnumerator Delay1()
+    {
+        yield return new WaitForSeconds(3.0f);
+        WarningText.gameObject.SetActive(false);
+        SceneManager.LoadScene("SignUpScene");
+
+
+    }
 
     IEnumerator Delay()
     {

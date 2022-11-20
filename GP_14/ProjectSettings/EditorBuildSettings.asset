@@ -50,9 +50,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/You pass2.unity
     guid: 030ebfa4f1fcd8241bf13c5ab9f33e17
-  - enabled: 1
-    path: Assets/Scenes/NumbersClassroom.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Playground.unity
     guid: 707acc8dffb72b144bb1ffbe1c965f3d
