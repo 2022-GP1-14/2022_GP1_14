@@ -153,7 +153,7 @@ public class Register1 : MonoBehaviour
     {
         yield return new WaitForSeconds(3.0f);
         WarningText.gameObject.SetActive(false);
-        SceneManager.LoadScene("SignUpScene");
+        //SceneManager.LoadScene("SignUpScene");
 
 
     }
