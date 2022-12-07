@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16134 MB
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'en' Physical Memory: 16300 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+C:\Users\user\Desktop\GP1\2021.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
+C:/Users/user/Desktop/GP-ALL/2022_GP1_14/GP_14
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64413
-Successfully changed project path to: C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
-C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
+57266
+Successfully changed project path to: C:/Users/user/Desktop/GP-ALL/2022_GP1_14/GP_14
+C:/Users/user/Desktop/GP-ALL/2022_GP1_14/GP_14
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,114 +47,116 @@ C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 131.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 173.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14/Assets
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/GP1/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/GP-ALL/2022_GP1_14/GP_14/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Microsoft Basic Render Driver (ID=0x8c)
-    Vendor:   Microsoft
-    VRAM:     8067 MB
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     8150 MB
+    Driver:   27.20.100.8681
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Mono path[0] = 'C:/Users/user/Desktop/GP1/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Users/user/Desktop/GP1/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Users/user/Desktop/GP1/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021903 seconds.
+Register platform support module: C:/Users/user/Desktop/GP1/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Users/user/Desktop/GP1/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.027358 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 210.45 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 175.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.902 seconds
+- Completed reload, in  1.753 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1903ms)
-		BeginReloadAssembly (389ms)
+	ReloadAssembly (1753ms)
+		BeginReloadAssembly (224ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1249ms)
-			LoadAssemblies (385ms)
+		EndReloadAssembly (1227ms)
+			LoadAssemblies (221ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (220ms)
+			SetupTypeCache (531ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (880ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (479ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (108ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (211ms)
-				BeforeProcessingInitializeOnLoad (5ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (278ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (176ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021704 seconds.
+Registered in 0.014867 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\OneDrive\Desktop\GP_Code\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\OneDrive\Desktop\GP_Code\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\GP-ALL\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\GP-ALL\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 187.98 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 176.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  2.954 seconds
+- Completed reload, in  2.427 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2956ms)
-		BeginReloadAssembly (726ms)
+	ReloadAssembly (2428ms)
+		BeginReloadAssembly (360ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (191ms)
-		EndReloadAssembly (1963ms)
-			LoadAssemblies (511ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1862ms)
+			LoadAssemblies (278ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (542ms)
+			SetupTypeCache (517ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (1068ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (1022ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (188ms)
-				BeforeProcessingInitializeOnLoad (192ms)
-				ProcessInitializeOnLoadAttributes (597ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				RefreshPlugins (177ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (570ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4245 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (187.1 KB). Loaded Objects now: 4709.
-Memory consumption went from 151.1 MB to 151.0 MB.
-Total: 5.414500 ms (FindLiveObjects: 0.449300 ms CreateObjectMapping: 0.416300 ms MarkObjects: 4.331100 ms  DeleteObjects: 0.216300 ms)
+Unloading 46 unused Assets / (185.0 KB). Loaded Objects now: 4708.
+Memory consumption went from 150.9 MB to 150.7 MB.
+Total: 7.382300 ms (FindLiveObjects: 0.481300 ms CreateObjectMapping: 0.475700 ms MarkObjects: 6.169600 ms  DeleteObjects: 0.254200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -162,673 +164,211 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 89156.422976 seconds.
-  path: Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
-  artifactKey: Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx using Guid(7e0223e1d3e1733499accfa5ebffb67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2c0e5c932eabb0348f88ab0c2cb154') in 0.708924 seconds 
+  Time since last request: 45186.473800 seconds.
+  path: Assets/Scenes/Playground.unity
+  artifactKey: Guid(707acc8dffb72b144bb1ffbe1c965f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Playground.unity using Guid(707acc8dffb72b144bb1ffbe1c965f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df145f54bee6088b84f82bd9647c301') in 0.069157 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/font/font/DINNextLTArabic-Bold SDF.asset
-  artifactKey: Guid(01b056d4181195347bfad684b6da9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/font/font/DINNextLTArabic-Bold SDF.asset using Guid(01b056d4181195347bfad684b6da9b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b456b42de503c23163775d4398e570ef') in 0.367407 seconds 
+  Time since last request: 2.691473 seconds.
+  path: Assets/Scenes/progress page.unity
+  artifactKey: Guid(17e8bb8f174d6a440ad047c4e9b7472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/progress page.unity using Guid(17e8bb8f174d6a440ad047c4e9b7472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f326cf962412f243e645e207143ff00') in 0.040393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.807301 seconds.
+  path: Assets/Scenes/SignUpScene.unity
+  artifactKey: Guid(fdf8482114b3b6e48bc2845cbe7917b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SignUpScene.unity using Guid(fdf8482114b3b6e48bc2845cbe7917b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd877ff49bc69f74bac2f1f8011aeab3e') in 0.047996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.771653 seconds.
+  path: Assets/Scenes/WarningScene.unity
+  artifactKey: Guid(be38b599692e1134f93997ae0328196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/WarningScene.unity using Guid(be38b599692e1134f93997ae0328196a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e5346b44536176ea980b8e1a567e54') in 0.029881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.022678 seconds.
+  path: Assets/Scenes/You pass.unity
+  artifactKey: Guid(1447e80b606f0f744ad4fabcce712539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/You pass.unity using Guid(1447e80b606f0f744ad4fabcce712539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3d4bf40c52c58122123c185b670c69') in 0.051679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.756610 seconds.
+  path: Assets/Scenes/You pass2.unity
+  artifactKey: Guid(030ebfa4f1fcd8241bf13c5ab9f33e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/You pass2.unity using Guid(030ebfa4f1fcd8241bf13c5ab9f33e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a69f3c4dd41133560e5d09a30bdcca9') in 0.051663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1644.436106 seconds.
+  path: Assets/images/C.png
+  artifactKey: Guid(bd9fc8b1572308044a19a704fa0f0ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/C.png using Guid(bd9fc8b1572308044a19a704fa0f0ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9f538fbe7ff9e5554cbdad6960f66d') in 0.284585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/images/B.png
+  artifactKey: Guid(c6ca9c68012a91c4ab190fbb19fe7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/B.png using Guid(c6ca9c68012a91c4ab190fbb19fe7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f09a831298bfceffa2505e7d31d2ca3') in 0.070845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 168.172827 seconds.
+  path: Assets/images/A.png
+  artifactKey: Guid(672a8e0739f889243a02682bfa2cebeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/A.png using Guid(672a8e0739f889243a02682bfa2cebeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413d32d18e086c5f98cec59cdd709f23') in 0.052227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.184209 seconds.
+  path: Assets/images/A.png
+  artifactKey: Guid(672a8e0739f889243a02682bfa2cebeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/A.png using Guid(672a8e0739f889243a02682bfa2cebeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8918d17b0b308e787cb14ff993694428') in 0.268110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.957188 seconds.
+  path: Assets/images/B.png
+  artifactKey: Guid(c6ca9c68012a91c4ab190fbb19fe7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/B.png using Guid(c6ca9c68012a91c4ab190fbb19fe7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa368441ca784022826525a7b7a5805') in 0.051062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.032658 seconds.
+  path: Assets/images/B.png
+  artifactKey: Guid(c6ca9c68012a91c4ab190fbb19fe7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/B.png using Guid(c6ca9c68012a91c4ab190fbb19fe7bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82707baa7530cd2fc58b40bd6b3ff3d8') in 0.198747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.476832 seconds.
+  path: Assets/images/C.png
+  artifactKey: Guid(bd9fc8b1572308044a19a704fa0f0ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/C.png using Guid(bd9fc8b1572308044a19a704fa0f0ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ea6809c719c6e73cbefe47aaa49235') in 0.054893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.394604 seconds.
+  path: Assets/images/C.png
+  artifactKey: Guid(bd9fc8b1572308044a19a704fa0f0ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/C.png using Guid(bd9fc8b1572308044a19a704fa0f0ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2317706199a5ca89fa470404e756c693') in 0.185763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.920491 seconds.
+  path: Assets/images/D.png
+  artifactKey: Guid(7cfeade1228419c43b3a2aa8a817afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/D.png using Guid(7cfeade1228419c43b3a2aa8a817afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9db4b19bca73b8cff7ee6aba81bc115') in 0.018801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.285706 seconds.
+  path: Assets/images/D.png
+  artifactKey: Guid(7cfeade1228419c43b3a2aa8a817afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/D.png using Guid(7cfeade1228419c43b3a2aa8a817afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe352a9bf64e76713d796b5b7d969ef') in 0.056420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.286557 seconds.
+  path: Assets/images/D.png
+  artifactKey: Guid(7cfeade1228419c43b3a2aa8a817afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/D.png using Guid(7cfeade1228419c43b3a2aa8a817afb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ea193c90bf82b4bcc342ca31c4d774') in 0.184774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.667452 seconds.
+  path: Assets/Scenes/First lesson letters.unity
+  artifactKey: Guid(15edf137ac0515e4f96665191cc8bc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/First lesson letters.unity using Guid(15edf137ac0515e4f96665191cc8bc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b777fee5dc8c884ccdbf1b7b79556d5') in 0.025582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 363.459702 seconds.
+  path: Assets/Easter_UI/Buttons
+  artifactKey: Guid(7601130fa52e64a409d2fc5441cc4117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Easter_UI/Buttons using Guid(7601130fa52e64a409d2fc5441cc4117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7303572e76431963cbe2d00f9330da9') in 0.024386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 727.950802 seconds.
+  path: Assets/images/1.png
+  artifactKey: Guid(57a9ab2246410244aa9a39fc3f831e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/1.png using Guid(57a9ab2246410244aa9a39fc3f831e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a505e2534038d548f8e298652abe7a9') in 0.063694 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000054 seconds.
-  path: Assets/StarterAssets/Environment/Art/Materials/Builtin_RP/BuiltInTriplanar_01_Mat.mat
-  artifactKey: Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/Environment/Art/Materials/Builtin_RP/BuiltInTriplanar_01_Mat.mat using Guid(3300a5c4710bac244815734e484b3b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1a78f4995a38aa96ea13294b533c47') in 0.906394 seconds 
+  path: Assets/images/5 1.png
+  artifactKey: Guid(ca8e6332b889ad940a770c91374b8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/5 1.png using Guid(ca8e6332b889ad940a770c91374b8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a0d01eebaab12795158e106f37d6cf') in 0.033779 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 799.222121 seconds.
-  path: Assets/images/teahub.io-wallpaper-for-12-year-3652975.jpg
-  artifactKey: Guid(4551964d6ff46d449ab5ec60aad9d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/teahub.io-wallpaper-for-12-year-3652975.jpg using Guid(4551964d6ff46d449ab5ec60aad9d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb65a515d7dde738b1bfdc28c1b202c1') in 0.142849 seconds 
+  Time since last request: 6.627043 seconds.
+  path: Assets/images/1.png
+  artifactKey: Guid(57a9ab2246410244aa9a39fc3f831e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/1.png using Guid(57a9ab2246410244aa9a39fc3f831e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6deb92b2e7d2682cfab1564d545d08') in 0.043938 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.451763 seconds.
-  path: Assets/images/teahub.io-wallpaper-for-12-year-3652975.jpg
-  artifactKey: Guid(4551964d6ff46d449ab5ec60aad9d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/teahub.io-wallpaper-for-12-year-3652975.jpg using Guid(4551964d6ff46d449ab5ec60aad9d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fa849d97982b43e1ca91b715af4a60') in 0.036772 seconds 
+  Time since last request: 4.794209 seconds.
+  path: Assets/images/2.png
+  artifactKey: Guid(9cb075a0155c7824a90e6f4ed12b38b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/2.png using Guid(9cb075a0155c7824a90e6f4ed12b38b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526914c6809bb61f195c371549317bca') in 0.038723 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.688886 seconds.
-  path: Assets/images/teahub.io-wallpaper-for-12-year-3652975.jpg
-  artifactKey: Guid(4551964d6ff46d449ab5ec60aad9d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/teahub.io-wallpaper-for-12-year-3652975.jpg using Guid(4551964d6ff46d449ab5ec60aad9d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84dd360a036eca49f506d5c630e6902') in 0.441237 seconds 
+  Time since last request: 6.903306 seconds.
+  path: Assets/images/3.png
+  artifactKey: Guid(8652c99782d64024ba4f06f61e6f2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/3.png using Guid(8652c99782d64024ba4f06f61e6f2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860a7cc40b57cb6d0549ce2c0e7fceed') in 0.039166 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 221.749983 seconds.
-  path: Assets/Easter_UI/blue_buttons/Button_home.png
-  artifactKey: Guid(a863a4ae0bc313d4aa6d93754daebf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/Button_home.png using Guid(a863a4ae0bc313d4aa6d93754daebf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c176782a80daccf5bcfe3ebdf5bb1cf') in 0.066486 seconds 
+  Time since last request: 4.274719 seconds.
+  path: Assets/images/4.png
+  artifactKey: Guid(8345298351062b444928febe28f03a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/4.png using Guid(8345298351062b444928febe28f03a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1c3abe408ad9093e938ddc7415f92f') in 0.038788 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Easter_UI/blue_buttons/Button_stop.png
-  artifactKey: Guid(db4bb8d95c27d094fb8408de986d4bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/Button_stop.png using Guid(db4bb8d95c27d094fb8408de986d4bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ecc185359f9ef1efd1134d0fa8d1a3') in 0.236492 seconds 
+  Time since last request: 6.010003 seconds.
+  path: Assets/images/5 1.png
+  artifactKey: Guid(ca8e6332b889ad940a770c91374b8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/5 1.png using Guid(ca8e6332b889ad940a770c91374b8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062df320db090521bd4229e48bd04a54') in 0.105993 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Easter_UI/blue_buttons/Button_out.png
-  artifactKey: Guid(3cb66e19c6406a049ae6a4dd26492ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/Button_out.png using Guid(3cb66e19c6406a049ae6a4dd26492ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f049543ceb2ef86fc79eac2a8cc8deca') in 0.244777 seconds 
+  Time since last request: 4.881946 seconds.
+  path: Assets/images/1.png
+  artifactKey: Guid(57a9ab2246410244aa9a39fc3f831e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/1.png using Guid(57a9ab2246410244aa9a39fc3f831e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0feaf4b68ab65c672733a08da86f2c9') in 0.208435 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Easter_UI/blue_buttons/icon_arrow.png
-  artifactKey: Guid(b3e03cbc0f880db4ebe23ff32879ddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/icon_arrow.png using Guid(b3e03cbc0f880db4ebe23ff32879ddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb719099816cd182b5a0b14c4bfb712') in 0.242121 seconds 
+  Time since last request: 54.869476 seconds.
+  path: Assets/images/2.png
+  artifactKey: Guid(9cb075a0155c7824a90e6f4ed12b38b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/2.png using Guid(9cb075a0155c7824a90e6f4ed12b38b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fab3aaaefb39f1283c84d939e084c1') in 0.228402 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Easter_UI/blue_buttons/Button_options.png
-  artifactKey: Guid(1cf833043254d0e46819eb3ad4fd04ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/Button_options.png using Guid(1cf833043254d0e46819eb3ad4fd04ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8684273e54db54e23e08b619755b59a4') in 0.282455 seconds 
+  Time since last request: 39.931018 seconds.
+  path: Assets/images/3.png
+  artifactKey: Guid(8652c99782d64024ba4f06f61e6f2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/3.png using Guid(8652c99782d64024ba4f06f61e6f2ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90975849c48bc1ebf587bc601e273fae') in 0.212725 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Easter_UI/blue_buttons/icon_menu_1.png
-  artifactKey: Guid(fc79bb92ba3e0644bb938fa2cc6d993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/icon_menu_1.png using Guid(fc79bb92ba3e0644bb938fa2cc6d993c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb604095310fa38059410fa44a381a46') in 0.252698 seconds 
+  Time since last request: 3.674914 seconds.
+  path: Assets/images/4.png
+  artifactKey: Guid(8345298351062b444928febe28f03a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/4.png using Guid(8345298351062b444928febe28f03a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64935111fa3ad2d14d233562dd988916') in 0.211099 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Easter_UI/blue_buttons/Icon_achive_3.png
-  artifactKey: Guid(9578cc9e61fc87c49b2fd72b22bc0b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/Icon_achive_3.png using Guid(9578cc9e61fc87c49b2fd72b22bc0b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d76ec2decd4aba6591438c021ac3339') in 0.280162 seconds 
+  Time since last request: 6.246662 seconds.
+  path: Assets/images/5 1.png
+  artifactKey: Guid(ca8e6332b889ad940a770c91374b8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/5 1.png using Guid(ca8e6332b889ad940a770c91374b8357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e5b0070b7901e9f1077a99cc44f922') in 0.221596 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Easter_UI/blue_buttons/icon_statistics.png
-  artifactKey: Guid(7b02aba4bd983f44a8fe5deb9fa1b64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/icon_statistics.png using Guid(7b02aba4bd983f44a8fe5deb9fa1b64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c944fe4785bb386774147d0e7e7b293') in 0.276158 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Easter_UI/blue_buttons/Button_plus.png
-  artifactKey: Guid(b686464ffe1bdaa47a753ced48c7a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/Button_plus.png using Guid(b686464ffe1bdaa47a753ced48c7a6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e825d6e4082f82c0dbc0a3d398223c6') in 0.314132 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Easter_UI/blue_buttons/icon_mail.png
-  artifactKey: Guid(0d68e75f5eec9464587b126a5c9ce5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/icon_mail.png using Guid(0d68e75f5eec9464587b126a5c9ce5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8bbfc43343360601e1d77f7de0970d') in 0.425034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Easter_UI/blue_buttons/icon_invite.png
-  artifactKey: Guid(632e57055a094bf4c822a35087dd5bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/icon_invite.png using Guid(632e57055a094bf4c822a35087dd5bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66196b2c2ace30e7d21d6e70bec74f76') in 0.290328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Easter_UI/blue_buttons/Button_share.png
-  artifactKey: Guid(3d573baa13938b841b9504d8565e7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/Button_share.png using Guid(3d573baa13938b841b9504d8565e7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcb1183bc696db2a443dff6cf835649') in 0.235353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Easter_UI/blue_buttons/Icon_achive.png
-  artifactKey: Guid(1030214ee14a39c4fbe311cab706e7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/blue_buttons/Icon_achive.png using Guid(1030214ee14a39c4fbe311cab706e7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044f7bc8f6133a7c15a7c99ef49b5ca9') in 0.253981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.890028 seconds.
-  path: Assets/Easter_UI/Buttons/arrow_02.png
-  artifactKey: Guid(4208fb8564029d54ba36b16babd259dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/arrow_02.png using Guid(4208fb8564029d54ba36b16babd259dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7fb12db30d2b07e3515eff4640048a') in 0.063666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.031250 seconds.
-  path: Assets/Easter_UI/Buttons/Button_pink_02.png
-  artifactKey: Guid(867e5f566b4d72744924885c06cda248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_pink_02.png using Guid(867e5f566b4d72744924885c06cda248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64831f5d7178e9ef31cd58de2819c1e2') in 0.223351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Easter_UI/Buttons/Button_01_medium.png
-  artifactKey: Guid(43615191a33bf4044862d26552807592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_01_medium.png using Guid(43615191a33bf4044862d26552807592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb89de04af5ea366756c628d96d62c37') in 0.266884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Easter_UI/Buttons/Button_03.png
-  artifactKey: Guid(d8c5bfaf47cbe194788883d22aa83d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_03.png using Guid(d8c5bfaf47cbe194788883d22aa83d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41e747dbb9ca9970a3dc7e9638f7350') in 0.220373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018792 seconds.
-  path: Assets/Easter_UI/Buttons/Button_pink.png
-  artifactKey: Guid(d6e00ab413ff3024daa8d0dfb85d1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_pink.png using Guid(d6e00ab413ff3024daa8d0dfb85d1b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b97582de76ae7cf90c4f70fa1905fc') in 0.318011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Easter_UI/Buttons/Button_03_small (2).png
-  artifactKey: Guid(f7f70b038364ce94daf886cd6b611b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_03_small (2).png using Guid(f7f70b038364ce94daf886cd6b611b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece267021d9be8ea591673afda309ad9') in 0.341280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Easter_UI/Buttons/Button_11.png
-  artifactKey: Guid(321b0c41b1c9aa149a3e3a49462d12a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_11.png using Guid(321b0c41b1c9aa149a3e3a49462d12a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e4756fd8e01a969b0f294a7b7b9050') in 0.096147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001910 seconds.
-  path: Assets/Easter_UI/Buttons/Button_08.png
-  artifactKey: Guid(308a186b20c816942b730e7bcad6a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_08.png using Guid(308a186b20c816942b730e7bcad6a1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0595ade7d7994800b028765d3a6e7cb') in 0.102272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Easter_UI/Buttons/arrow_07.png
-  artifactKey: Guid(10301dc7711745547acc5f1402e3e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/arrow_07.png using Guid(10301dc7711745547acc5f1402e3e1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71cbf9c51cf518f49255a2541ddd605') in 0.185903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001322 seconds.
-  path: Assets/Easter_UI/Buttons/arrow_04.png
-  artifactKey: Guid(6ffd00fa559e6de43927e1b28fc730ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/arrow_04.png using Guid(6ffd00fa559e6de43927e1b28fc730ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbcc27adf328e8b970e56b6329f14e3') in 0.178383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Easter_UI/Buttons/Button_02_long.png
-  artifactKey: Guid(b1a4463b0b9760149b5ffb773de18823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_02_long.png using Guid(b1a4463b0b9760149b5ffb773de18823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78c46f8a1a7a4768f466ca68649036c') in 0.397151 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Easter_UI/Buttons/Button_06.png
-  artifactKey: Guid(f1a7a463fba87274e8e54b06fac3e68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_06.png using Guid(f1a7a463fba87274e8e54b06fac3e68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa60a12de0df9e3188c395a3f4a1550') in 0.147634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Easter_UI/Buttons/Button_09.png
-  artifactKey: Guid(2e5f5bc87fdd8574cb15602e08b1dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_09.png using Guid(2e5f5bc87fdd8574cb15602e08b1dcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ce00202bc0a7c7367a438df5e72467') in 0.191013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Easter_UI/Buttons/Button_10.png
-  artifactKey: Guid(5f559e9f945edf54491f0f7881fdcb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_10.png using Guid(5f559e9f945edf54491f0f7881fdcb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9e83f4bc3cb4daae5c5dfbbcf8384e') in 0.223337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Easter_UI/Buttons/button_04.png
-  artifactKey: Guid(7b8f3b5e07792024281bc0deb0ba115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/button_04.png using Guid(7b8f3b5e07792024281bc0deb0ba115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc141666c191ffc086024077ef8c6f58') in 0.136985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.777172 seconds.
-  path: Assets/Easter_UI/Buttons/Button_start_03.png
-  artifactKey: Guid(fc281b5c26474fe4d92c0cbb400dc54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Buttons/Button_start_03.png using Guid(fc281b5c26474fe4d92c0cbb400dc54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd668d125521adc059e39405814817041') in 0.077834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.762855 seconds.
-  path: Assets/Easter_UI/Backgrounds/background_01.png
-  artifactKey: Guid(cc99d8a9700005b45b7f063863a0f2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Backgrounds/background_01.png using Guid(cc99d8a9700005b45b7f063863a0f2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a62b8ba3ffc6b607d094ae4e5412e26') in 0.470361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Easter_UI/Backgrounds/background_09.png
-  artifactKey: Guid(638ecbe756ca97447bb01d65b47034f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Backgrounds/background_09.png using Guid(638ecbe756ca97447bb01d65b47034f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5022a1eb1f3ff651792227f0c0c8a0c9') in 1.044075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000660 seconds.
-  path: Assets/Easter_UI/Backgrounds/background_10.png
-  artifactKey: Guid(47c524f0976c2f74db60e3be2de39a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Backgrounds/background_10.png using Guid(47c524f0976c2f74db60e3be2de39a5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976a0d1bedc909ca95ce37ccd936668d') in 0.740242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Easter_UI/Backgrounds/background_05.png
-  artifactKey: Guid(6ce23f07c7d9f6c4b887df04deeaa329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Backgrounds/background_05.png using Guid(6ce23f07c7d9f6c4b887df04deeaa329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e2dfc8364bd1c8477f47d05752c417') in 0.692708 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Easter_UI/Backgrounds/background_06.png
-  artifactKey: Guid(c0643f13cbaf42c4bbb95ac3ddc9b8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Backgrounds/background_06.png using Guid(c0643f13cbaf42c4bbb95ac3ddc9b8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11010368092386863930ffa488dfb4d') in 0.694457 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Easter_UI/Backgrounds/background_07.png
-  artifactKey: Guid(ff5dfdda5602bed49b877d048a4b3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Backgrounds/background_07.png using Guid(ff5dfdda5602bed49b877d048a4b3f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb6ef257beda2dfe09a853a23a314a4') in 0.627521 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.959346 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_20.png
-  artifactKey: Guid(86b74199bef26df46beb264de777b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_20.png using Guid(86b74199bef26df46beb264de777b99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2594e81657ed682d53493f7f47f74993') in 0.100871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_37.png
-  artifactKey: Guid(7a5a5e8d7ae48d542a937ccb9dd3bd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_37.png using Guid(7a5a5e8d7ae48d542a937ccb9dd3bd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46db566c45d051df383571b622e6a55e') in 0.359189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_38.png
-  artifactKey: Guid(69fef2b53721091488381637770d43c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_38.png using Guid(69fef2b53721091488381637770d43c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9982a40bbd87e744e655c337f3131e') in 0.191606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014826 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_28.png
-  artifactKey: Guid(d786210d5d7ec7e498caae840b81ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_28.png using Guid(d786210d5d7ec7e498caae840b81ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9ebd19a1bfd1190f97ca3bba4d71dd') in 0.367178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_29.png
-  artifactKey: Guid(00673fdc9361de248b9c4e2e9ac818d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_29.png using Guid(00673fdc9361de248b9c4e2e9ac818d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0900e52882d147d248008368017e956') in 0.243856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_45.png
-  artifactKey: Guid(211b1e8cb73cd7a4e9a71a9d22668699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_45.png using Guid(211b1e8cb73cd7a4e9a71a9d22668699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a85cd12cf81fad0c0cece1b0158efb6') in 0.335399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_24.png
-  artifactKey: Guid(2337a86b1deb7b94ca10ccf4f5a6066c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_24.png using Guid(2337a86b1deb7b94ca10ccf4f5a6066c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351a96508cd3ecf1abb5696075bee333') in 0.299217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_22.png
-  artifactKey: Guid(cc872f9a83d022c4cb8ac5596462626b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_22.png using Guid(cc872f9a83d022c4cb8ac5596462626b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1547ec28d5fa72e1069fbca3e4d7fda') in 0.142600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_44.png
-  artifactKey: Guid(00537e85648a96c46800052f14cc7446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_44.png using Guid(00537e85648a96c46800052f14cc7446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51f66f0f6f362162423607ba659f0f9') in 0.037594 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_42.png
-  artifactKey: Guid(e1ba06dc0bfd8ac41babb11a66b0f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_42.png using Guid(e1ba06dc0bfd8ac41babb11a66b0f3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491b4b8f14efde76537779c35bd71fc5') in 0.043887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_26.png
-  artifactKey: Guid(8cda3e411f5a5bb419d2b8892056cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_26.png using Guid(8cda3e411f5a5bb419d2b8892056cad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc98f05b9852d6b8906a3c368f64570f') in 0.041162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_31.png
-  artifactKey: Guid(bbba3f9417bae93459bf09b8a8b4911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_31.png using Guid(bbba3f9417bae93459bf09b8a8b4911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93e19fa6539952054e0ee6a0f322531') in 0.038135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Easter_UI/eggs/Icon_egg_23.png
-  artifactKey: Guid(b3da497094357744bb7c5f11ff145df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/eggs/Icon_egg_23.png using Guid(b3da497094357744bb7c5f11ff145df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd9235de5071bb4928691f5bb605efd') in 0.048264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.198396 seconds.
-  path: Assets/Easter_UI/pink_buttons/Button_arrow_bot.png
-  artifactKey: Guid(ef81d8f9993587546912f5eb28890e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Button_arrow_bot.png using Guid(ef81d8f9993587546912f5eb28890e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa08f453d7dd55df1f57b8e990e2506d') in 0.101585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Easter_UI/pink_buttons/Button_info_124.png
-  artifactKey: Guid(8314e597a68cfdb4787c73716eea21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Button_info_124.png using Guid(8314e597a68cfdb4787c73716eea21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90eccd708b6677cb7fc6b682100814d') in 0.195699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Easter_UI/pink_buttons/Button_video_02.png
-  artifactKey: Guid(49aa4505915489d4e8f44d4c1d69e5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Button_video_02.png using Guid(49aa4505915489d4e8f44d4c1d69e5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e82fed0da772624a45cd797f5c338fb') in 0.280940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Easter_UI/pink_buttons/icon_exit_02.png
-  artifactKey: Guid(383ac3cca8407fb49bd382f0c1018a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/icon_exit_02.png using Guid(383ac3cca8407fb49bd382f0c1018a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11b425e47db0ceec655301c2b001317f') in 0.260319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Easter_UI/pink_buttons/Delete_02.png
-  artifactKey: Guid(94630362a25a1ee458ebe00f1071225a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Delete_02.png using Guid(94630362a25a1ee458ebe00f1071225a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e42e695e890debbecc9a4ae28443d8') in 0.266803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Easter_UI/pink_buttons/icon_menu.png
-  artifactKey: Guid(6f6e827cc48e32d46a2dd5ffbfc4d3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/icon_menu.png using Guid(6f6e827cc48e32d46a2dd5ffbfc4d3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a31ad167ca716308cc0f99fc9257421e') in 0.285498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Easter_UI/pink_buttons/Button_share_02.png
-  artifactKey: Guid(82c4cc16effcc4c4c816688442dabb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Button_share_02.png using Guid(82c4cc16effcc4c4c816688442dabb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82f324a4e5d595c017045bbb33acacc') in 0.309992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Easter_UI/pink_buttons/Icon_achive_03.png
-  artifactKey: Guid(7ba9c849b05685144ba3fa4414029073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Icon_achive_03.png using Guid(7ba9c849b05685144ba3fa4414029073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd131ca2d91fec632418e0d73ce808513') in 0.186808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.012392 seconds.
-  path: Assets/Easter_UI/pink_buttons/Icon_achive_01.png
-  artifactKey: Guid(acce9b8974eaea1489e4c5d47372478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Icon_achive_01.png using Guid(acce9b8974eaea1489e4c5d47372478a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6fda6dcfd51c8c4c6aa7f127bd00ac') in 0.212791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Easter_UI/pink_buttons/Icon_achive_02.png
-  artifactKey: Guid(a2b568ee2b6190043b890c0935370c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Icon_achive_02.png using Guid(a2b568ee2b6190043b890c0935370c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659dfbab94818f1da4ddb47f2ec3e5ed') in 0.249590 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Easter_UI/pink_buttons/icon_me_02.png
-  artifactKey: Guid(1b6b5e57c538702478e8515cce910b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/icon_me_02.png using Guid(1b6b5e57c538702478e8515cce910b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c43590951923e3c048f2e967ca064b') in 0.259736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Easter_UI/pink_buttons/icon_star_01.png
-  artifactKey: Guid(ae4b83a550247cb4d8d8b7a06b062b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/icon_star_01.png using Guid(ae4b83a550247cb4d8d8b7a06b062b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690a4c29fead6152de3716f684b94670') in 0.247366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Easter_UI/pink_buttons/Button_inqury_02.png
-  artifactKey: Guid(05a3f609774782243aa8c7df16371dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Button_inqury_02.png using Guid(05a3f609774782243aa8c7df16371dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fade2afc93c4601eccfd305879afe13') in 0.223429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Easter_UI/pink_buttons/Button_minus_02.png
-  artifactKey: Guid(bee162deaf0be4d4cae5d42467db9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Button_minus_02.png using Guid(bee162deaf0be4d4cae5d42467db9ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa2cd41e2695d4e014b631d9a7b6cbd') in 0.297570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Easter_UI/pink_buttons/Button_arrow_right.png
-  artifactKey: Guid(513799dc58fed2544a98516712852583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/pink_buttons/Button_arrow_right.png using Guid(513799dc58fed2544a98516712852583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e4d4d00e1d26c0cfd0e4ce85e3913d') in 0.055734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.588235 seconds.
-  path: Assets/Easter_UI/particles/Button_loading.png
-  artifactKey: Guid(3d47752efff855740b48e07f21cb033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/particles/Button_loading.png using Guid(3d47752efff855740b48e07f21cb033b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804188333ac1f15f60d852d3810d8bb9') in 0.088354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Easter_UI/particles/Frame_02.png
-  artifactKey: Guid(aed7c476076c26142b351b57a7c27ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/particles/Frame_02.png using Guid(aed7c476076c26142b351b57a7c27ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01f84a4b27b8dcd75974afdc66cc57c') in 0.225042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Easter_UI/particles/particl_01.png
-  artifactKey: Guid(c3a5445cd3fef1c4495906bf197914fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/particles/particl_01.png using Guid(c3a5445cd3fef1c4495906bf197914fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db625fe851d09309fe3c2cbba3f58773') in 1.168641 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Easter_UI/particles/Frame_08.png
-  artifactKey: Guid(127b807d6f88d1d4e8f17d46fdbf6ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/particles/Frame_08.png using Guid(127b807d6f88d1d4e8f17d46fdbf6ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dd72142a9297db0599ceb9cf679a89') in 0.217031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Easter_UI/particles/glow.png
-  artifactKey: Guid(1d8c07710ec69c6429cf104c28d669d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/particles/glow.png using Guid(1d8c07710ec69c6429cf104c28d669d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c9a28e7ec2397e0d8b53e8d6d48cc3') in 0.344561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Easter_UI/particles/Frame.png
-  artifactKey: Guid(16ec4cac915bd69408f8bb4c2dae2a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/particles/Frame.png using Guid(16ec4cac915bd69408f8bb4c2dae2a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7688a0b323330d845c98a7a873ff8ac') in 0.276649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Easter_UI/particles/Frame_06.png
-  artifactKey: Guid(01c25c3a967d06843a2041b41dddef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/particles/Frame_06.png using Guid(01c25c3a967d06843a2041b41dddef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca4b3257d37c9b45579bdf4a0604247') in 0.196044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.998735 seconds.
-  path: Assets/Easter_UI/Panels/Panel_02.png
-  artifactKey: Guid(dbfd1dc500828c74f815e7a619a58f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Panels/Panel_02.png using Guid(dbfd1dc500828c74f815e7a619a58f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee17e8fcfc17c9f1e4310ba9f90901a5') in 0.838593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Easter_UI/Panels/Panel_09.png
-  artifactKey: Guid(e94f710ef5c99d2448bf1ffe670d78fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Panels/Panel_09.png using Guid(e94f710ef5c99d2448bf1ffe670d78fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d8f86fa34d68e9e951849a83a2a5d3b') in 0.582489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Easter_UI/Panels/Panel_07.png
-  artifactKey: Guid(559f16253b58e84429886b82daed98c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Panels/Panel_07.png using Guid(559f16253b58e84429886b82daed98c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba633cdcb2e9d531df0b2f73a2064897') in 0.817507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.305412 seconds.
-  path: Assets/Easter_UI/Icons/achive.png
-  artifactKey: Guid(3555d69b124178c44b91d38056887eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/achive.png using Guid(3555d69b124178c44b91d38056887eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa4383a8a81c2173791bfe3b5726c09') in 0.070591 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Easter_UI/Icons/arrow_right_01.png
-  artifactKey: Guid(5c19760804d779a44b477b8e2c837b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/arrow_right_01.png using Guid(5c19760804d779a44b477b8e2c837b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37675887e8164986c7e12fdea12f09b6') in 0.152795 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Easter_UI/Icons/arrow_top_01.png
-  artifactKey: Guid(aff4ddb84f5c101488d7afa058f21284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/arrow_top_01.png using Guid(aff4ddb84f5c101488d7afa058f21284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418d55240dfe0530decd4f339b1ff303') in 0.321167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Easter_UI/Icons/arrow_bot_01.png
-  artifactKey: Guid(789d74d083f85d2469db54e9adab2de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/arrow_bot_01.png using Guid(789d74d083f85d2469db54e9adab2de8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d930089c281f1fda5a4e76eb034c65') in 0.245994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Easter_UI/Icons/arrow_top.png
-  artifactKey: Guid(9a989a76c9aec3a41b5f503989e57860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/arrow_top.png using Guid(9a989a76c9aec3a41b5f503989e57860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9961a99169296f19cf2a2aa4223f2bc9') in 0.277668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Easter_UI/Icons/Button_shop.png
-  artifactKey: Guid(d72c84c885d796f4c9927d3235e403dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/Button_shop.png using Guid(d72c84c885d796f4c9927d3235e403dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae63622d15c9b04403328e3c187505e0') in 0.300684 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Easter_UI/Icons/inqury_02.png
-  artifactKey: Guid(09730d5da4d22bd47a80c8d45b4e7fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/inqury_02.png using Guid(09730d5da4d22bd47a80c8d45b4e7fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e6f572f4322477615caca75ef90322') in 0.220875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Easter_UI/Icons/button_save.png
-  artifactKey: Guid(0efed34286da63e41a9163d332e7f90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/button_save.png using Guid(0efed34286da63e41a9163d332e7f90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e944d96210f15e20912f65c4837804') in 0.178438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Easter_UI/Icons/achive_2.png
-  artifactKey: Guid(55f585b2ba16b4548b9784d6136987d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/achive_2.png using Guid(55f585b2ba16b4548b9784d6136987d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa951dffb7876bd769bc6cd486d2797c') in 0.195479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Easter_UI/Icons/delete.png
-  artifactKey: Guid(b8048a723cc46be4993d60c1d086a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/delete.png using Guid(b8048a723cc46be4993d60c1d086a7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd370c049cd6318dd50fdc01e4da2d2e2') in 0.266238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Easter_UI/Icons/icon_mail_1.png
-  artifactKey: Guid(3c91265cfd40998489c8c1d5f7b3d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/icon_mail_1.png using Guid(3c91265cfd40998489c8c1d5f7b3d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c3e05a43385ed93c9963c9076b9ce4') in 0.237450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Easter_UI/Icons/heart.png
-  artifactKey: Guid(90f969ce4581cbb44925b1090f210b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/heart.png using Guid(90f969ce4581cbb44925b1090f210b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c5035dcc22a785738545d1d52dafb7') in 0.460108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Easter_UI/Icons/icon_daily_bonuses.png
-  artifactKey: Guid(9e021506cb4ad4747904218356751276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/icon_daily_bonuses.png using Guid(9e021506cb4ad4747904218356751276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56b5ceba355fe41798791194ec6fbb7') in 0.200012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Easter_UI/Icons/Button_video_1.png
-  artifactKey: Guid(27da31804a80dc543a8779b9511b6342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/Button_video_1.png using Guid(27da31804a80dc543a8779b9511b6342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3c1ddf0f7c84e8d1b4d6be80f13f86') in 0.179382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 339.027508 seconds.
-  path: Assets/Easter_UI/Icons/lock.png
-  artifactKey: Guid(0989666fd05dc8f4ea54eef24cf4293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/lock.png using Guid(0989666fd05dc8f4ea54eef24cf4293b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c92514bc9df83657218ab18afd2c7f') in 0.355636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Easter_UI/Icons/menu_04.png
-  artifactKey: Guid(bb220f0a6c5a96c42a379bc3fc65e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/menu_04.png using Guid(bb220f0a6c5a96c42a379bc3fc65e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba607ccd973a74382c7c099e86bd0b92') in 0.198668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003370 seconds.
-  path: Assets/Easter_UI/Icons/stars_03.png
-  artifactKey: Guid(f7c4bfbd222d1e547a7e6fe4a53fa1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/stars_03.png using Guid(f7c4bfbd222d1e547a7e6fe4a53fa1ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f335f3f5873c3d687c00f34d77c2ceb') in 0.212540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Easter_UI/Icons/menu_02.png
-  artifactKey: Guid(dd371b30adf30234f969d93965d64b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/menu_02.png using Guid(dd371b30adf30234f969d93965d64b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecd3f95e7fe605b51cccfee4db10eb7') in 0.245907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Easter_UI/Icons/stars_04.png
-  artifactKey: Guid(5238b7bb8d2c1cc4585bfeb0f2597a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/stars_04.png using Guid(5238b7bb8d2c1cc4585bfeb0f2597a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36460007b454376f2c41f59ad6e71c4') in 0.214893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Easter_UI/Icons/menu_06.png
-  artifactKey: Guid(1209113a054038c46b5cefdf8e7c776c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/menu_06.png using Guid(1209113a054038c46b5cefdf8e7c776c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a63c264cafb22152eb70e90a6d0f97') in 0.219437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Easter_UI/Icons/time.png
-  artifactKey: Guid(1d417e73673aa0e40b8696193d9489a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/time.png using Guid(1d417e73673aa0e40b8696193d9489a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '915e4adcf40bf012544c9119bf5205a8') in 0.182406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Easter_UI/Icons/re.png
-  artifactKey: Guid(7c4b84caf7a23d541be5a97b3a1ff54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/re.png using Guid(7c4b84caf7a23d541be5a97b3a1ff54f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bca5aab513b0bc0927fa691cc5a1f6') in 0.202373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/Easter_UI/Icons/menu_05.png
-  artifactKey: Guid(ae6b3ac76127ce44f853dfdcd6f7edf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/menu_05.png using Guid(ae6b3ac76127ce44f853dfdcd6f7edf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0cfc2935680602230eb1fd916a8f28') in 0.203372 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Easter_UI/Icons/share_02.png
-  artifactKey: Guid(08f5a26944bc40041a5fa3be8e9f027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/share_02.png using Guid(08f5a26944bc40041a5fa3be8e9f027f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28468f03983a4ad2fdfe256bfcb11571') in 0.220233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Easter_UI/Icons/statistics_01.png
-  artifactKey: Guid(b651a43ebdfa06c46874e0a47e8cacf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Easter_UI/Icons/statistics_01.png using Guid(b651a43ebdfa06c46874e0a47e8cacf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75ac113936c898a516a7eeecc608a88') in 0.216901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 393.005358 seconds.
-  path: Assets/Scenes/ChildProfileScene.unity
-  artifactKey: Guid(4c6884dc0507ca043bb38bd6dd1465c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ChildProfileScene.unity using Guid(4c6884dc0507ca043bb38bd6dd1465c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca322c069333f718dc0210a705ac8db') in 0.045893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.025029 seconds.
-  path: Assets/Scenes/Counting numbers game.unity
-  artifactKey: Guid(45a30842d18b08c48bd08221b1003482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Counting numbers game.unity using Guid(45a30842d18b08c48bd08221b1003482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b667f0cacd1905540448abe9b960cba6') in 0.081274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.352493 seconds.
-  path: Assets/Scenes/Counting numbers game.unity
-  artifactKey: Guid(45a30842d18b08c48bd08221b1003482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Counting numbers game.unity using Guid(45a30842d18b08c48bd08221b1003482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f8968c2eccdf23dee6570e3d4e1f18') in 0.014100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 72.598447 seconds.
+  Time since last request: 455.666654 seconds.
   path: Assets/Scenes/First lesson numbers.unity
   artifactKey: Guid(9f94d3d4a74de9a4ea608f6079f63519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/First lesson numbers.unity using Guid(9f94d3d4a74de9a4ea608f6079f63519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becb5672469d84d240f9e4af86dc399f') in 0.065440 seconds 
+Start importing Assets/Scenes/First lesson numbers.unity using Guid(9f94d3d4a74de9a4ea608f6079f63519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd38b978d2f5ad78405a56e2f9c5cb51') in 0.018208 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.090075 seconds.
-  path: Assets/Scenes/First lesson letters.unity
-  artifactKey: Guid(15edf137ac0515e4f96665191cc8bc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/First lesson letters.unity using Guid(15edf137ac0515e4f96665191cc8bc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7224acb9b9b5f80310e9144b2d83870') in 0.049539 seconds 
+  Time since last request: 326.756484 seconds.
+  path: Assets/images/#C7E6FD (3).png
+  artifactKey: Guid(0497a30e6e121e546856ee2199103da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/#C7E6FD (3).png using Guid(0497a30e6e121e546856ee2199103da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dcc03e9760365a588b1cd0ffed50a3') in 0.018400 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.666114 seconds.
-  path: Assets/Scenes/First lesson letters.unity
-  artifactKey: Guid(15edf137ac0515e4f96665191cc8bc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/First lesson letters.unity using Guid(15edf137ac0515e4f96665191cc8bc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d09f2771b2381f23e1c2e26a189623') in 0.038511 seconds 
+  Time since last request: 11.912407 seconds.
+  path: Assets/images/41.png
+  artifactKey: Guid(0497a30e6e121e546856ee2199103da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/41.png using Guid(0497a30e6e121e546856ee2199103da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53581ae583cf7b8347dbd038ba0a0b9') in 0.059898 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.304909 seconds.
-  path: Assets/Scenes/Homepage.unity
-  artifactKey: Guid(ea53afd2ce362634dbb802f4f14efd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Homepage.unity using Guid(ea53afd2ce362634dbb802f4f14efd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff1727b0413c9df32156b34614b20bb') in 0.052481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.908779 seconds.
-  path: Assets/Scenes/Letters page.unity
-  artifactKey: Guid(532bb745ebcebbf4c8337584ff88dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Letters page.unity using Guid(532bb745ebcebbf4c8337584ff88dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8678ec4a2a33a85116d098fc0bdeb3fc') in 0.059325 seconds 
+  Time since last request: 6.044554 seconds.
+  path: Assets/images/41.png
+  artifactKey: Guid(0497a30e6e121e546856ee2199103da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/41.png using Guid(0497a30e6e121e546856ee2199103da3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9241799b6245ac28ae9ed995202bbef7') in 0.164608 seconds 
