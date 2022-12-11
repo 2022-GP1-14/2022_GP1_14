@@ -15,7 +15,7 @@ C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52774
+50753
 Successfully changed project path to: C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
 C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Admin/OneDrive/Desktop/GP_Code/2022_GP1_14/GP_14
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 224.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 183.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -63,93 +63,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021806 seconds.
+Registered in 0.041521 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 336.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 373.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.417 seconds
+- Completed reload, in  3.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2419ms)
-		BeginReloadAssembly (449ms)
+	ReloadAssembly (3359ms)
+		BeginReloadAssembly (714ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (1610ms)
-			LoadAssemblies (444ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (2103ms)
+			LoadAssemblies (757ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
+			SetupTypeCache (721ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (998ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (1078ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (159ms)
+				InitializePlatformSupportModulesInManaged (183ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (337ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (188ms)
+				RefreshPlugins (374ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (338ms)
+				ProcessInitializeOnLoadMethodAttributes (178ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025413 seconds.
+Registered in 0.045590 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\OneDrive\Desktop\GP_Code\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\OneDrive\Desktop\GP_Code\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 249.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 447.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  3.653 seconds
+- Completed reload, in  6.572 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3654ms)
-		BeginReloadAssembly (615ms)
+	ReloadAssembly (6576ms)
+		BeginReloadAssembly (673ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (20ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (159ms)
-		EndReloadAssembly (2714ms)
-			LoadAssemblies (324ms)
+			CreateAndSetChildDomain (174ms)
+		EndReloadAssembly (5056ms)
+			LoadAssemblies (444ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (781ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (172ms)
-			SetupLoadedEditorAssemblies (1460ms)
+			SetupTypeCache (1426ms)
+			ReleaseScriptCaches (11ms)
+			RebuildScriptCaches (538ms)
+			SetupLoadedEditorAssemblies (2383ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (69ms)
+				InitializePlatformSupportModulesInManaged (51ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (250ms)
-				BeforeProcessingInitializeOnLoad (256ms)
-				ProcessInitializeOnLoadAttributes (783ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				RefreshPlugins (447ms)
+				BeforeProcessingInitializeOnLoad (418ms)
+				ProcessInitializeOnLoadAttributes (1316ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (24ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4245 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 46 unused Assets / (185.2 KB). Loaded Objects now: 4709.
 Memory consumption went from 151.0 MB to 150.8 MB.
-Total: 9.340900 ms (FindLiveObjects: 0.568000 ms CreateObjectMapping: 0.505500 ms MarkObjects: 8.004300 ms  DeleteObjects: 0.260700 ms)
+Total: 28.619400 ms (FindLiveObjects: 1.590900 ms CreateObjectMapping: 5.741600 ms MarkObjects: 20.928200 ms  DeleteObjects: 0.356600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,124 +163,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 193762.904991 seconds.
-  path: Assets/images
-  artifactKey: Guid(313450f962b24d646bcf8e0487ed2863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images using Guid(313450f962b24d646bcf8e0487ed2863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af921bd72d1da5ec60e32f1942db3ea') in 0.016083 seconds 
+  Time since last request: 196555.964266 seconds.
+  path: Assets/images/image
+  artifactKey: Guid(d3376248d7971b4488d07f0a5082be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/images/image using Guid(d3376248d7971b4488d07f0a5082be3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c29bb5b154d94179674c993754edb05') in 0.026113 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.894532 seconds.
-  path: Assets/images/blue-button-hi.png
-  artifactKey: Guid(e202de2d845da65448b4087dd436edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/blue-button-hi.png using Guid(e202de2d845da65448b4087dd436edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede539d1064783564abf60924182661') in 0.139667 seconds 
+  Time since last request: 14.344851 seconds.
+  path: Assets/Free Stylized Skybox/ReadMe.txt
+  artifactKey: Guid(a86ec5db966ebbe45aba28c70be3c459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/ReadMe.txt using Guid(a86ec5db966ebbe45aba28c70be3c459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef8fc25e9c1d678677b881219df6ff1') in 0.083627 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.315941 seconds.
-  path: Assets/images/blue-button-hi.png
-  artifactKey: Guid(e202de2d845da65448b4087dd436edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/blue-button-hi.png using Guid(e202de2d845da65448b4087dd436edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f059803b30675fa3b68d62116b1c41') in 0.034795 seconds 
+  Time since last request: 1.337499 seconds.
+  path: Assets/Free Stylized Skybox/CubeMap
+  artifactKey: Guid(8f1c5a5cb73b94a419410c4554e1dd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/CubeMap using Guid(8f1c5a5cb73b94a419410c4554e1dd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc531a83dc13fbf452b85b3cdda905a') in 0.015651 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.422202 seconds.
-  path: Assets/images/blue-button-hi.png
-  artifactKey: Guid(e202de2d845da65448b4087dd436edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/blue-button-hi.png using Guid(e202de2d845da65448b4087dd436edbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f4c8ccfd0b03c7269a76e885978905') in 0.089761 seconds 
+  Time since last request: 3.320830 seconds.
+  path: Assets/Free Stylized Skybox/Scene.unity
+  artifactKey: Guid(b6c24b8e304c2a24faf1f1e69b8ea107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Scene.unity using Guid(b6c24b8e304c2a24faf1f1e69b8ea107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d21e95108e282aaada3c442d96daa5') in 0.010984 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 268.343837 seconds.
-  path: Assets/images/rectangle.png
-  artifactKey: Guid(c241469e4a35f65428d8ebcfb870ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/rectangle.png using Guid(c241469e4a35f65428d8ebcfb870ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30685fe9c6b5706080147ab72ee9ed53') in 0.050840 seconds 
+  Time since last request: 3.453138 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic
+  artifactKey: Guid(6588c901b4b81d540b701c69a7474393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic using Guid(6588c901b4b81d540b701c69a7474393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dba10a2ec44d83a1198d72b5bcc2b5f') in 0.014323 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.418494 seconds.
-  path: Assets/images/rectangle.png
-  artifactKey: Guid(c241469e4a35f65428d8ebcfb870ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/rectangle.png using Guid(c241469e4a35f65428d8ebcfb870ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad84465e5f07d94d090d793cc0d4a9cd') in 0.023726 seconds 
+  Time since last request: 0.922484 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Textures
+  artifactKey: Guid(d9f8778e282034c4eb5dc5c46157aee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Textures using Guid(d9f8778e282034c4eb5dc5c46157aee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e7ce29276574ace7c0c8aee0fdc3fd') in 0.015910 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.480773 seconds.
-  path: Assets/images/rectangle.png
-  artifactKey: Guid(c241469e4a35f65428d8ebcfb870ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images/rectangle.png using Guid(c241469e4a35f65428d8ebcfb870ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545f392643f6ce27219d75fb1b24b476') in 0.079269 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023883 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\OneDrive\Desktop\GP_Code\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Admin\OneDrive\Desktop\GP_Code\2022_GP1_14\GP_14\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 11.129 seconds
-Domain Reload Profiling:
-	ReloadAssembly (11131ms)
-		BeginReloadAssembly (1125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (44ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (394ms)
-		EndReloadAssembly (8763ms)
-			LoadAssemblies (803ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2621ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (285ms)
-			SetupLoadedEditorAssemblies (4601ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (155ms)
-				SetLoadedEditorAssemblies (4ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (1210ms)
-				ProcessInitializeOnLoadAttributes (2688ms)
-				ProcessInitializeOnLoadMethodAttributes (469ms)
-				AfterProcessingInitializeOnLoad (71ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (44ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 9.95 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4225 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (152.3 KB). Loaded Objects now: 4736.
-Memory consumption went from 153.6 MB to 153.5 MB.
-Total: 23.528200 ms (FindLiveObjects: 1.099700 ms CreateObjectMapping: 4.919700 ms MarkObjects: 17.142200 ms  DeleteObjects: 0.363600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.059231 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_03_Day_a.png
+  artifactKey: Guid(f533b109bd941ea44b93a29274d4eef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_03_Day_a.png using Guid(f533b109bd941ea44b93a29274d4eef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28333b8141e6a0e917721a8ce42b0830') in 0.397172 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1593.834752 seconds.
-  path: Assets/font/font/DINNextLTArabic-Bold.ttf
-  artifactKey: Guid(a0624914594e4f340950ee38873adb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/font/font/DINNextLTArabic-Bold.ttf using Guid(a0624914594e4f340950ee38873adb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ea28f1896262e69d685b14ff76b080') in 0.549331 seconds 
+  Time since last request: 0.000049 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png
+  artifactKey: Guid(b3453e84aa7d88a47a6b80b04864177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png using Guid(b3453e84aa7d88a47a6b80b04864177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '082a06bb0bdd3ceccaaeca4e3d2bbca9') in 0.120885 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Plugins/CW/Shared/Common/Examples/Fonts/VarelaRound-Regular.ttf
-  artifactKey: Guid(da9a51ce28f0d7443a5bcbdbe04c4f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/CW/Shared/Common/Examples/Fonts/VarelaRound-Regular.ttf using Guid(da9a51ce28f0d7443a5bcbdbe04c4f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caebb8b1db9c67dca5e6b878b1d48304') in 0.080723 seconds 
+  Time since last request: 0.000065 seconds.
+  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png
+  artifactKey: Guid(80d697d9e2b2d324da231c441502f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png using Guid(80d697d9e2b2d324da231c441502f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758942c9a8969128394b8e12f597ad26') in 0.141258 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/font/font/DINNextLTArabic-Regular.ttf
-  artifactKey: Guid(e9692fe2cf329b44489527c1146fb4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/font/font/DINNextLTArabic-Regular.ttf using Guid(e9692fe2cf329b44489527c1146fb4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3ad44951edf36ffb4d41ebd95be85e') in 0.145387 seconds 
+  Time since last request: 36.009752 seconds.
+  path: Assets/Adaptive Performance/Provider/Samsung Android Provider Loader.asset
+  artifactKey: Guid(52f508643c01fd4468985b7541e970a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/Provider/Samsung Android Provider Loader.asset using Guid(52f508643c01fd4468985b7541e970a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba4bef60e4373830cd7c6a3f8742940') in 0.025842 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/font/font/DINNextLTArabic-Medium.ttf
-  artifactKey: Guid(aa55eb61b2a69e140a2db21a05af1d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/font/font/DINNextLTArabic-Medium.ttf using Guid(aa55eb61b2a69e140a2db21a05af1d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c5f99ec9b853bb1a4f416860a3e6ef') in 0.114810 seconds 
+  Time since last request: 1.388266 seconds.
+  path: Assets/Adaptive Performance/Settings/Samsung Android Provider Settings.asset
+  artifactKey: Guid(a2540018563bf0645b93b6446ba8e67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/Settings/Samsung Android Provider Settings.asset using Guid(a2540018563bf0645b93b6446ba8e67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafd3cc9306b7fa140378affbbd096f3') in 0.013611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.947273 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(1986e3ad6f6846740828d94ef963cc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(1986e3ad6f6846740828d94ef963cc53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb59882461d10a09768dc7fd1c6be0a') in 0.017874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.674765 seconds.
+  path: Assets/Free Stylized Skybox/Scene.unity
+  artifactKey: Guid(b6c24b8e304c2a24faf1f1e69b8ea107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Stylized Skybox/Scene.unity using Guid(b6c24b8e304c2a24faf1f1e69b8ea107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e5498941978a1489e72918ca712d2e') in 0.004356 seconds 
