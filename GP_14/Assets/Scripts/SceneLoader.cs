@@ -72,7 +72,12 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("You pass");
     }
-     public void NumbersGameLevel1()
+
+    public void loadPassPage1()
+    {
+        SceneManager.LoadScene("You pass2");
+    }
+    public void NumbersGameLevel1()
     {
         SceneManager.LoadScene("NumbersGameLevel1");
     }
