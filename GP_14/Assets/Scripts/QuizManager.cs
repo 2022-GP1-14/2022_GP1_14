@@ -99,6 +99,7 @@ public class QuizManager : MonoBehaviour
            // Debug.Log("currentQuestion"+currentQuestion);
            
             QuestionTxt.text = QnA[currentQuestion].Question;
+            //Audio listenier is generated here
              Debug.Log("opt");
               Debug.Log(QnA[currentQuestion].Answers[0]);
                Debug.Log(QnA[currentQuestion].Answers[1]);
