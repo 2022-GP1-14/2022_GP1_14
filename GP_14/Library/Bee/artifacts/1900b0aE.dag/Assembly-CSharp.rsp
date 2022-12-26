@@ -372,6 +372,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/Arabic/Abdullah Al-Imam/Arabic Support UI/Script/ArabicText.cs"
 "Assets/Scripts/AnswerScript.cs"
+"Assets/Scripts/AudioManager.cs"
+"Assets/Scripts/BackgroundMusic.cs"
 "Assets/Scripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/ChildProfileManager.cs"
 "Assets/Scripts/Consent.cs"
