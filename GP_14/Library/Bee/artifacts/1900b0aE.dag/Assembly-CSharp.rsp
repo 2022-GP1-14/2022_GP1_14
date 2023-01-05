@@ -382,6 +382,8 @@
 "Assets/Scripts/LoadingBar.cs"
 "Assets/Scripts/Login.cs"
 "Assets/Scripts/Login1.cs"
+"Assets/Scripts/MatchItem.cs"
+"Assets/Scripts/MatchLogic.cs"
 "Assets/Scripts/MobileDisableAutoSwitchControls.cs"
 "Assets/Scripts/MouseLook.cs"
 "Assets/Scripts/PlayerMovement.cs"

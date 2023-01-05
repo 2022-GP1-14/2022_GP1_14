@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/First lesson letters.unity
+- path: Assets/Scenes/You pass2.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -94,4 +94,9 @@ public void NumbersGameLevel2()
     {
         SceneManager.LoadScene("LettersLesson");
     }
+
+    public void MatchingLevel1()
+    {
+        SceneManager.LoadScene("MatchingLevel1");
+    }
 }

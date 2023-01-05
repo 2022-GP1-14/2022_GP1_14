@@ -924,7 +924,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &88032053
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4034,7 +4034,7 @@ GameObject:
   - component: {fileID: 631236267}
   - component: {fileID: 631236266}
   m_Layer: 5
-  m_Name: login
+  m_Name: BackToLogin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4104,13 +4104,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 102900000, guid: e0fcd2bf125ec43408502a650f909eae, type: 3}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 832182177}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LogOut
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5740,6 +5740,10 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5143234506888756622, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: WarningText
+      value: 
+      objectReference: {fileID: 177288663}
+    - target: {fileID: 5143234506888756622, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
       propertyPath: passwordInput
       value: 
       objectReference: {fileID: 1965190363}
@@ -6146,6 +6150,50 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5143234507784465882, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
   m_PrefabInstance: {fileID: 816419236}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &832182176
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 832182178}
+  - component: {fileID: 832182177}
+  m_Layer: 0
+  m_Name: SceneLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &832182177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832182176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1579f10ee24dec64a83d299178d2625b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &832182178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832182176}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1088.7485, y: 895.7711, z: 1.82159}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870642852
 GameObject:
   m_ObjectHideFlags: 0
