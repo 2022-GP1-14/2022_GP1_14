@@ -65,6 +65,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MatchingLevel1.unity
     guid: ab8b0f6924f9a7349a667ff53abb8299
+  - enabled: 1
+    path: Assets/Scenes/LettersLesson.unity
+    guid: 3ba29b0f662c458469b399cee7ff385d
   m_configObjects:
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: a2540018563bf0645b93b6446ba8e67a, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 7c956be033e70684c975ad6c86dd436a, type: 2}
