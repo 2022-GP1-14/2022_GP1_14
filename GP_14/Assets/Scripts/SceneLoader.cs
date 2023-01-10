@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
- public void LoadHomeScene()
+    public void LoadHomeScene()
     {
         SceneManager.LoadScene("Homepage");
     }
@@ -38,6 +38,7 @@ public class SceneLoader : MonoBehaviour
     public void loadcountingscene()
     {
         SceneManager.LoadScene("Counting numbers game");
+        DisableLock();
     }
     public void loadmatchingscene()
     {
@@ -80,9 +81,10 @@ public class SceneLoader : MonoBehaviour
     public void NumbersGameLevel1()
     {
         SceneManager.LoadScene("NumbersGameLevel1");
+        DisableLock();
     }
 
-public void NumbersGameLevel2()
+    public void NumbersGameLevel2()
     {
         SceneManager.LoadScene("NumbersGameLevel2");
     }
@@ -95,8 +97,9 @@ public void NumbersGameLevel2()
         SceneManager.LoadScene("LettersLesson");
     }
 
-    public void MatchingLevel1()
+    public void DisableLock()
     {
-        SceneManager.LoadScene("MatchingLevel1");
+        PlayerPrefs.SetInt("Lock", 1);
+
     }
 }
