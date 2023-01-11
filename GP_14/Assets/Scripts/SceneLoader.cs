@@ -97,6 +97,17 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("LettersLesson");
     }
 
+    public void LoadMatchingLvl1() 
+    {
+        SceneManager.LoadScene("MatchingLevel1");
+
+    }
+
+    public void LoadMatchingLvl2()
+    {
+        SceneManager.LoadScene("matchLetterleve2");
+
+    }
     public void DisableLock()
     {
         PlayerPrefs.SetInt("Lock", 1);
