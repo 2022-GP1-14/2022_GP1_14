@@ -21,6 +21,9 @@ public class MatchItem : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoin
     public GameObject B;
     public GameObject D;
     public GameObject C;
+    public AudioSource source;
+    public AudioClip[]correct;
+    public AudioClip incorrect;
 
     //void Start()
     //{
@@ -82,6 +85,8 @@ public class MatchItem : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoin
             Destroy(this);
             Destroy(line);
             MatchLogic.AddPoint();
+            source.clip = correct[Random.Range(0, correct.Length)];
+            source.Play();
             Debug.Log(" c  match  ");
 
         }
@@ -89,6 +94,8 @@ public class MatchItem : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoin
         {
             Debug.Log("w match  ");
             Destroy(line);
+            source.clip = incorrect;
+            source.Play();
             //Â· ·«“„ «‘Ì·Â« ø
         }
 

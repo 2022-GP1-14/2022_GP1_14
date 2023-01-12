@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
+    //do not forget to write the distance between the object and its shape in the document
     public GameObject A, B, C, D, ADark, BDark, CDark, DDark;
 
     Vector2 AInitialPos, BInitialPos, CInitialPos, DInitialPos;
@@ -43,7 +44,7 @@ public class Manager : MonoBehaviour
     {
 
         float distance = Vector3.Distance(A.transform.position, ADark.transform.position);
-        if (distance < 50)
+        if (distance < 300)
         {
             A.transform.position = ADark.transform.position;
             //Score.scoreNumber += 1;
@@ -63,7 +64,7 @@ public class Manager : MonoBehaviour
     {
 
         float distance = Vector3.Distance(B.transform.position, BDark.transform.position);
-        if (distance < 50)
+        if (distance < 300)
         {
             B.transform.position = BDark.transform.position;
             //Score.scoreNumber += 1;
@@ -82,7 +83,7 @@ public class Manager : MonoBehaviour
     {
 
         float distance = Vector3.Distance(C.transform.position, CDark.transform.position);
-        if (distance < 50)
+        if (distance < 300)
         {
             C.transform.position = CDark.transform.position;
             //Score.scoreNumber += 1;
@@ -101,7 +102,7 @@ public class Manager : MonoBehaviour
     {
 
         float distance = Vector3.Distance(D.transform.position, DDark.transform.position);
-        if (distance < 50)
+        if (distance < 300)
         {
             D.transform.position = DDark.transform.position;
             //Score.scoreNumber += 1;
