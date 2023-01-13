@@ -15,10 +15,12 @@ public class QuizManager : MonoBehaviour
     public GameObject applee;
 
     public GameObject appleee;
- public GameObject appleeee;
-  public GameObject appleeeee;
+    public GameObject appleeee;
+    public GameObject appleeeee;
     public Text QuestionTxt;
     public Text ScoreTxt;
+
+
 
     int tolalQuestions = 0;
     public int score;

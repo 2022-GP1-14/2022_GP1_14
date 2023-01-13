@@ -1,22 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class Manager : MonoBehaviour
 {
     //do not forget to write the distance between the object and its shape in the document
-    public GameObject A, B, C, D, ADark, BDark, CDark, DDark;
+    public GameObject A, B, C, D, ADark, BDark, CDark, DDark, GoPanel, panel;
 
     Vector2 AInitialPos, BInitialPos, CInitialPos, DInitialPos;
+
+    public static int score;
+    public Text ScoreTxt;
 
     public AudioSource source;
     public AudioClip[] correct;
     public AudioClip incorrect;
 
     bool ABool, BBool, CBool, DBool = false;
+    bool AABool, BBBool, CCBool, DDBool = false;
 
     void Start()
     {
+        panel.SetActive(true);
+        GoPanel.SetActive(false);
         AInitialPos = A.transform.position;
         BInitialPos = B.transform.position;
         CInitialPos = C.transform.position;
@@ -40,6 +47,7 @@ public class Manager : MonoBehaviour
         D.transform.position = Input.mousePosition;
     }
 
+
     public void DropA()
     {
 
@@ -51,6 +59,7 @@ public class Manager : MonoBehaviour
             //carrotBool = true;
             source.clip = correct[Random.Range(0, correct.Length)];
             source.Play();
+            score += 1;
             ABool = true;
         }
         else
@@ -58,6 +67,9 @@ public class Manager : MonoBehaviour
             A.transform.position = AInitialPos;
             source.clip = incorrect;
             source.Play();
+            AABool = true;
+            A.SetActive(false);
+
         }
     }
     public void DropB()
@@ -68,15 +80,19 @@ public class Manager : MonoBehaviour
         {
             B.transform.position = BDark.transform.position;
             //Score.scoreNumber += 1;
-            BBool = true;
+            
             source.clip = correct[Random.Range(0, correct.Length)];
             source.Play();
+            score += 1;
+            BBool = true;
         }
         else
         {
             B.transform.position = BInitialPos;
             source.clip = incorrect;
             source.Play();
+            B.SetActive(false);
+            BBBool = true;
         }
     }
     public void DropC()
@@ -90,12 +106,16 @@ public class Manager : MonoBehaviour
             CBool = true;
             source.clip = correct[Random.Range(0, correct.Length)];
             source.Play();
+            score += 1;
+            
         }
         else
         {
             C.transform.position = CInitialPos;
             source.clip = incorrect;
             source.Play();
+            C.SetActive(false);
+            CCBool = true;
         }
     }
     public void DropD()
@@ -109,21 +129,29 @@ public class Manager : MonoBehaviour
             DBool = true;
             source.clip = correct[Random.Range(0, correct.Length)];
             source.Play();
+            score += 1;
         }
         else
         {
             D.transform.position = DInitialPos;
             source.clip = incorrect;
             source.Play();
+            D.SetActive(false);
+            DDBool = true;
         }
     }
     void Update()
     {
-        //if (ABool && BBool && CBool && DBool || Timer.time <= 0)
-        if (ABool && BBool && CBool && DBool)
+        //if (ABool  || Timer.time <= 0)
+        if ((ABool || AABool) && (BBool || BBBool) && (CBool || CCBool) && (DBool || DDBool))
         {
+            // if (ABool && BBool && CBool && DBool)
 
-            Debug.Log("You Win!");
+            GoPanel.SetActive(true);
+            panel.SetActive(false);
+            Debug.Log(score);
+            ScoreTxt.text = score + "/" + 4;
+          
         }
     }
 }
