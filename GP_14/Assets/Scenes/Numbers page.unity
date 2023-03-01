@@ -376,14 +376,14 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 258233743}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 956393598}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: loadcountingscene
+        m_MethodName: Gotocountingscene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -747,7 +747,7 @@ GameObject:
   - component: {fileID: 738389215}
   - component: {fileID: 738389214}
   - component: {fileID: 738389213}
-  - component: {fileID: 738389217}
+  - component: {fileID: 738389218}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -837,7 +837,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &738389217
+--- !u!114 &738389218
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 738389212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2e51d24333c6874cab736bf1992d43d, type: 3}
+  m_Script: {fileID: 11500000, guid: 635e413e1ceb9fd43a678f3d795f28a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 258233742}
@@ -1309,7 +1309,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 956393598}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadHomeScene
+        m_MethodName: GoHomeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1518,7 +1518,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 956393598}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadHomeScene
+        m_MethodName: GoHomeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

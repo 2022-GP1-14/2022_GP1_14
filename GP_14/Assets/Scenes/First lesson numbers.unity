@@ -292,7 +292,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417253189}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadNumbersScene
+        m_MethodName: GotoNumbersScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1637,7 +1637,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 417253189}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadHomeScene
+        m_MethodName: GoHomeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

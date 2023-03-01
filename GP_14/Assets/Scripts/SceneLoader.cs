@@ -5,7 +5,54 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+
+
+    public void GotoNumbersScene()
+    {
+        SceneManager.LoadScene("Numbers page");
+    }
+    public void GotoLettersScene()
+    {
+        SceneManager.LoadScene("Letters page");
+    }
+
+
+    public void Gotomatchingscene()
+    {
+        SceneManager.LoadScene("Match letters game");
+    }
+
+    public void GotoMatchingLvl1()
+    {
+        SceneManager.LoadScene("MatchingLevel1");
+    }
+
+    public void Gotocountingscene()
+    {
+        SceneManager.LoadScene("Counting numbers game");
+    }
+
+    public void GotoNumbersGameLevel1()
+    {
+        SceneManager.LoadScene("NumbersGameLevel1");
+    }
+
+
+    //
     public void LoadHomeScene()
+    {
+        DisableLockNumberPage();
+        SceneManager.LoadScene("Homepage");
+    }
+
+    public void BackHomeScene()
+    {
+        DisableLock();
+        SceneManager.LoadScene("Homepage");
+
+    }
+
+    public void GoHomeScene()
     {
         SceneManager.LoadScene("Homepage");
     }
@@ -29,6 +76,7 @@ public class SceneLoader : MonoBehaviour
     }
     public void LoadNumbersScene()
     {
+        //DisableLock();
         SceneManager.LoadScene("Numbers page");
     }
     public void LoadLettersScene()
@@ -38,11 +86,14 @@ public class SceneLoader : MonoBehaviour
     public void loadcountingscene()
     {
         SceneManager.LoadScene("Counting numbers game");
-        DisableLock();
+        //LockCounting Number
+        DisableLockCountingNumber();
     }
     public void loadmatchingscene()
     {
         SceneManager.LoadScene("Match letters game");
+        //Player
+        DisableLockMatchLetter();
     }
     public void loadFirstLessonLettersscene()
     {
@@ -81,7 +132,8 @@ public class SceneLoader : MonoBehaviour
     public void NumbersGameLevel1()
     {
         SceneManager.LoadScene("NumbersGameLevel1");
-        DisableLock();
+        //LockCounting Number
+        DisableLockCountingNumber();
     }
 
     public void NumbersGameLevel2()
@@ -97,10 +149,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("LettersLesson");
     }
 
-    public void LoadMatchingLvl1() 
+    public void LoadMatchingLvl1()
     {
         SceneManager.LoadScene("MatchingLevel1");
-
+        // Playeer
+        DisableLockMatchLetter();
     }
 
     public void LoadMatchingLvl2()
@@ -111,6 +164,24 @@ public class SceneLoader : MonoBehaviour
     public void DisableLock()
     {
         PlayerPrefs.SetInt("Lock", 1);
+
+    }
+
+    public void DisableLockMatchLetter()
+    {
+        PlayerPrefs.SetInt("LockMatchLetter", 1);
+
+    }
+
+    public void DisableLockNumberPage()
+    {
+        PlayerPrefs.SetInt("LockNumberPage", 1);
+
+    }
+
+    public void DisableLockCountingNumber()
+    {
+        PlayerPrefs.SetInt("DisableLockCountingNumber", 1);
 
     }
 }

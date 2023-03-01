@@ -277,7 +277,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 550443330}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: LoadNumbersScene
+        m_MethodName: BackHomeScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696ce2cd40d49484ab618bf74d31d4ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: "\u0647\u064A\u0627 \u0646\u0644\u0639\u0628"
+  Text: "\u0627\u0630\u0647\u0628 \u0644\u0644\u0639\u0628"
   ShowTashkeel: 0
   UseHinduNumbers: 0
 --- !u!114 &1784957760
@@ -913,7 +913,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uFE90\uFECC\uFEE0\uFEE7 \uFE8E\uFEF4\uFEEB"
+  m_Text: "\uFE90\uFECC\uFEE0\uFEDF \uFE90\uFEEB\u0630\u0627"
 --- !u!222 &1784957761
 CanvasRenderer:
   m_ObjectHideFlags: 0

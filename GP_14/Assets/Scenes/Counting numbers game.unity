@@ -345,7 +345,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 557411801}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: NumbersGameLevel1
+        m_MethodName: GotoNumbersGameLevel1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1026,7 +1026,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 836825664}
   m_OnClick:
     m_PersistentCalls:
@@ -1949,7 +1949,7 @@ GameObject:
   - component: {fileID: 2147215273}
   - component: {fileID: 2147215272}
   - component: {fileID: 2147215271}
-  - component: {fileID: 2147215275}
+  - component: {fileID: 2147215276}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2039,7 +2039,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &2147215275
+--- !u!114 &2147215276
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2048,7 +2048,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2147215270}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2e51d24333c6874cab736bf1992d43d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3119f027564f9ed43ae8fa9a2030e00c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 836825663}
