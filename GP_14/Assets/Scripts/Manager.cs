@@ -10,7 +10,7 @@ public class Manager : MonoBehaviour
 
     Vector2 AInitialPos, BInitialPos, CInitialPos, DInitialPos;
 
-    public static int score;
+    public int score = 0;
     public Text ScoreTxt;
 
     public AudioSource source;

@@ -6,72 +6,78 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/WarningScene.unity
+    path: Assets/_Project/Scenes/WarningScene.unity
     guid: be38b599692e1134f93997ae0328196a
   - enabled: 1
-    path: Assets/Scenes/LoginScene.unity
+    path: Assets/_Project/Scenes/LoginScene.unity
     guid: e0fcd2bf125ec43408502a650f909eae
   - enabled: 1
-    path: Assets/Scenes/SignUpScene.unity
+    path: Assets/_Project/Scenes/SignUpScene.unity
     guid: fdf8482114b3b6e48bc2845cbe7917b6
   - enabled: 1
-    path: Assets/Scenes/Homepage.unity
+    path: Assets/_Project/Scenes/Homepage.unity
     guid: ea53afd2ce362634dbb802f4f14efd70
   - enabled: 1
-    path: Assets/Scenes/Numbers page.unity
+    path: Assets/_Project/Scenes/Numbers page.unity
     guid: 798881049a1a28d42b47a561ee69b419
   - enabled: 1
-    path: Assets/Scenes/First lesson numbers.unity
+    path: Assets/_Project/Scenes/First lesson numbers.unity
     guid: 9f94d3d4a74de9a4ea608f6079f63519
   - enabled: 1
-    path: Assets/Scenes/You pass.unity
+    path: Assets/_Project/Scenes/You pass.unity
     guid: 1447e80b606f0f744ad4fabcce712539
   - enabled: 1
-    path: Assets/Scenes/Letters page.unity
+    path: Assets/_Project/Scenes/Letters page.unity
     guid: 532bb745ebcebbf4c8337584ff88dc7d
   - enabled: 1
-    path: Assets/Scenes/Counting numbers game.unity
+    path: Assets/_Project/Scenes/Counting numbers game.unity
     guid: 45a30842d18b08c48bd08221b1003482
   - enabled: 1
-    path: Assets/Scenes/First lesson letters.unity
+    path: Assets/_Project/Scenes/First lesson letters.unity
     guid: 15edf137ac0515e4f96665191cc8bc7b
   - enabled: 1
-    path: Assets/Scenes/Match letters game.unity
+    path: Assets/_Project/Scenes/Match letters game.unity
     guid: 7ddfc1418e8e08940b07bf1d04d5e137
   - enabled: 1
-    path: Assets/Scenes/pdfreportpage.unity
+    path: Assets/_Project/Scenes/pdfreportpage.unity
     guid: 348a7ddf38d687141b1c91fb8992ff15
   - enabled: 1
-    path: Assets/Scenes/ChildProfileScene.unity
+    path: Assets/_Project/Scenes/ChildProfileScene.unity
     guid: 4c6884dc0507ca043bb38bd6dd1465c4
   - enabled: 1
-    path: Assets/Scenes/progress page.unity
+    path: Assets/_Project/Scenes/progress page.unity
     guid: 17e8bb8f174d6a440ad047c4e9b7472c
   - enabled: 1
-    path: Assets/Scenes/You pass2.unity
+    path: Assets/_Project/Scenes/You pass2.unity
     guid: 030ebfa4f1fcd8241bf13c5ab9f33e17
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/NumbersLesson.unity
+    path: Assets/_Project/Scenes/Playground.unity
     guid: 707acc8dffb72b144bb1ffbe1c965f3d
   - enabled: 1
-    path: Assets/Scenes/NumbersGameLevel1.unity
-    guid: bb23d272e5c38914d93cae523339bfdd
-  - enabled: 1
-    path: Assets/Scenes/NumbersGameLevel2.unity
-    guid: e351cbe9362afdb42af8a4032b60f101
-  - enabled: 1
-    path: Assets/Scenes/MatchingLevel1.unity
-    guid: ab8b0f6924f9a7349a667ff53abb8299
-  - enabled: 1
-    path: Assets/Scenes/LettersLesson.unity
+    path: Assets/_Project/Scenes/LettersLesson.unity
     guid: 3ba29b0f662c458469b399cee7ff385d
   - enabled: 1
-    path: Assets/Scenes/matchLetterleve2.unity
+    path: Assets/_Project/Scenes/MatchingLevel1.unity
+    guid: ab8b0f6924f9a7349a667ff53abb8299
+  - enabled: 1
+    path: Assets/_Project/Scenes/matchLetterleve2.unity
     guid: 7970941135129994c897c97b7edc6119
+  - enabled: 1
+    path: Assets/_Project/Scenes/NumbersGameLevel1.unity
+    guid: bb23d272e5c38914d93cae523339bfdd
+  - enabled: 1
+    path: Assets/_Project/Scenes/NumbersGameLevel2.unity
+    guid: e351cbe9362afdb42af8a4032b60f101
+  - enabled: 1
+    path: Assets/_Project/Scenes/NumbersLesson.unity
+    guid: 6d46bef75d4d6ef45bf35b84cb364b38
+  - enabled: 1
+    path: Assets/_Project/Scenes/ShareScene.unity
+    guid: eb32af4214c4a83418667f2b3f08bea3
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 94cf8cc92452a05419ec21fc512e6947, type: 2}
     com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: a2540018563bf0645b93b6446ba8e67a, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 7c956be033e70684c975ad6c86dd436a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1986e3ad6f6846740828d94ef963cc53, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7a34b6d31d6558941af3d29f81b64ece, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 32c0cc311100e4f488467bddbca8ed96, type: 2}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "181610700075",
+    "firebase_url": "https://childapp-5b946-default-rtdb.firebaseio.com",
+    "project_id": "childapp-5b946",
+    "storage_bucket": "childapp-5b946.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181610700075:android:53163e805deb6a6415396e",
+        "android_client_info": {
+          "package_name": "com.company.ChildApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181610700075-fjn7ltq5h2rtem7ab2nlsjickkkb399m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7zYpVlL9BQSl2_W0GMSneCIZRaOc7umg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181610700075-fjn7ltq5h2rtem7ab2nlsjickkkb399m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
