@@ -20,19 +20,20 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Getting-Started">Getting Started</a>
       <ul>
-      <li><a href="# 🛠  technology-with">technology</a></li>
+      <li><a href="# 🛠  Technology-with">technology</a></li>
        <li><a href="#built-with">Built With</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
+         <li><a href="#Our GitHub repository">Project Link</a></li>
       </ul>
     </li>
 
   </ol>
 </details>
 
-# About the Project
+# About The Project
 
 ## Introduction
 The project aims to provide an interactive mobile application based on VR technology in order to support the educational process for autistic children 
@@ -40,7 +41,7 @@ and helping their parents in teaching them at home. Our application will mix lea
 
 # Getting Started
 
-## 🛠 technology
+## 🛠 Technology
 By using the Unity game engine which provides us with a powerful cross-platform IDE and using C# language for coding the script. 
 
 
@@ -49,7 +50,7 @@ By using the Unity game engine which provides us with a powerful cross-platform 
 [![My Skills](https://skills.thijs.gg/icons?i=visualstudio,cs,unity)](https://skills.thijs.gg)
 
 
-## prerequisites
+## Prerequisites
  To use our project you can simply download this software and how to install them.
  
  <ol>
@@ -62,15 +63,25 @@ By using the Unity game engine which provides us with a powerful cross-platform 
 ### Instructions for  Installation
   
   <ul>
-<li>download and install any Unity version using Unity Hub which is available online.</li>
+<li>Download and Install any Unity version using Unity Hub which is available online.</li>
  </ul>
+ 
  
  ####  on github:
  <ol>
-<li>clone the repository on any empty folder on your computer </li>
-<li>go to unity hub and click on open and on add project from disk</li>
-<li>select the folder with repository that was selected before and select the unity project inside  </li>
-<li>wait for installation and now the project should be install on you device</li>
+<li>Clone the repository on any empty folder on your computer. </li>
+<li>Go to unity hub and click on open and on add project from disk.</li>
+<li>Select the folder with repository that was selected before and select the unity project inside.  </li>
+<li>Wait for installation and now the project should be install on you device.</li>
   </ol>
+ 
+   #### Login Credentials:
+   <ul>
+<li>The Email:</li>
+<li>The Password:</li>
+ </ul>
   
+### Our GitHub repository 
+Project Link: [https://github.com/2022-GP1-14/2022_GP1_14](https://github.com/2022-GP1-14/2022_GP1_14)
+
 
