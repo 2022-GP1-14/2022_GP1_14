@@ -9,16 +9,16 @@ public class LockNumberPage : MonoBehaviour
 
     public Button button;
     public GameObject lockbtn;
-    // Start is called before the first frame update
-    void Update()
+    private void Start()
     {
-
-        if (PlayerPrefs.GetInt("LockNumberPage") == 1)
-        {
-            Debug.Log("Coming in if");
-            button.interactable = true;
-            lockbtn.SetActive(false);
-        }
-
+        bool isInteractable = UserData.instance.scoreData != null && UserData.instance.scoreData.Numbers == 1;
+        SetButtonState(isInteractable);
     }
+
+    private void SetButtonState(bool isInteractable)
+    {
+        button.interactable = isInteractable;
+        lockbtn.SetActive(!isInteractable);
+    }
+
 }

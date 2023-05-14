@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -45,7 +47,7 @@ public class SceneLoader : MonoBehaviour
 
     public void BackHomeScene()
     {
-        DisableLock();
+        //DisableLock();
         SceneManager.LoadScene("Letters page");
 
     }
@@ -68,10 +70,14 @@ public class SceneLoader : MonoBehaviour
     public void LoadNumbersScene()
     {
         SceneManager.LoadScene("Numbers page");
+       
+        UnityEngine.Debug.Log("Lesson loading failed");
     }
     public void LoadLettersScene()
     {
         SceneManager.LoadScene("Letters page");
+       
+        UnityEngine.Debug.Log("Lesson loading failed");
     }
     public void loadcountingscene()
     {
@@ -107,7 +113,9 @@ public class SceneLoader : MonoBehaviour
     public void LogOut()
     {
         SceneManager.LoadScene("LoginScene");
+        UnityEngine.Debug.Log("Log out failed");
     }
+    
 
     public void loadPassPage()
     {
@@ -149,11 +157,6 @@ public class SceneLoader : MonoBehaviour
     public void LoadMatchingLvl2()
     {
         SceneManager.LoadScene("matchLetterleve2");
-
-    }
-    public void DisableLock()
-    {
-        PlayerPrefs.SetInt("Lock", 1);
 
     }
     private string scenadditive;

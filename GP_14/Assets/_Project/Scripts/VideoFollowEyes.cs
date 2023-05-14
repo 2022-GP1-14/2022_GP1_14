@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -8,7 +9,6 @@ public class VideoFollowEyes : MonoBehaviour
 {
     public VideoPlayer video;
     public UnityEvent OnClick;
-    public string LessonName;
     public LessonType type;
     void Awake()
     {
@@ -16,10 +16,8 @@ public class VideoFollowEyes : MonoBehaviour
         video.loopPointReached += StopXR;
     }
   
-    public GameObject Hint;
     public void Exit()
     {
-        PlayerPrefs.SetInt(LessonName, 0);
         if (XRGeneralSettings.Instance.Manager.isInitializationComplete)
         {
             XRGeneralSettings.Instance.Manager.StopSubsystems();
@@ -29,17 +27,39 @@ public class VideoFollowEyes : MonoBehaviour
     }
     void StopXR(VideoPlayer vp)
     {
-
-        PlayerPrefs.SetInt(LessonName, 1);
-        UserData.instance.WatchLesson(type);
-        if (XRGeneralSettings.Instance.Manager.isInitializationComplete)
+        try
         {
-            XRGeneralSettings.Instance.Manager.StopSubsystems();
-            Camera.main.ResetAspect();
-            XRGeneralSettings.Instance.Manager.DeinitializeLoader();
+            UserData.instance.WatchLesson(type);
+
+            if (UserData.instance.scoreData == null)
+            {
+                UserData.instance.scoreData = new ScoreData();
+            }
+
+            switch (type)
+            {
+                case LessonType.Numbers:
+                    UserData.instance.scoreData.Numbers = 1;
+                    break;
+                case LessonType.Letters:
+                    UserData.instance.scoreData.Letters = 1;
+                    break;
+            }
+
+            if (XRGeneralSettings.Instance.Manager.isInitializationComplete)
+            {
+                XRGeneralSettings.Instance.Manager.StopSubsystems();
+                Camera.main.ResetAspect();
+                XRGeneralSettings.Instance.Manager.DeinitializeLoader();
+            }
+
+            OnClick.Invoke();
         }
-        OnClick.Invoke();
+        catch (Exception ex)
+        {
+            Debug.LogError($"An error occurred while stopping XR: {ex}");
+        }
     }
-  
-   
+
+
 }

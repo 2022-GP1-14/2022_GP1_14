@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,25 +13,29 @@ public class LockController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        if (PlayerPrefs.GetInt("Lock") == 1)
+        try
         {
-            Debug.Log("Coming in if");
-            button.interactable = true;
-            lockbtn.SetActive(false);
+            bool isInteractable = UserData.instance?.scoreData?.Letters == 1;
+            SetButtonState(isInteractable);
         }
-        else
+        catch (Exception ex)
         {
-            Debug.Log("Coming in else");
-
-            button.interactable = false;
-            lockbtn.SetActive(true);
+            Debug.LogError($"An error occurred while setting the button state: {ex}");
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void SetButtonState(bool isInteractable)
     {
-        
+        try
+        {
+            button.interactable = isInteractable;
+            lockbtn.SetActive(!isInteractable);
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"An error occurred while setting the button state: {ex}");
+        }
     }
+
+
 }

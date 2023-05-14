@@ -226,6 +226,50 @@ PrefabInstance:
       propertyPath: m_HorizontalAlignment
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 603204649, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 450.5819
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204649, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 59.7338
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204649, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -9.501
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204649, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -279.03308
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204652, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204652, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204652, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: originalText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204652, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204652, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204652, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190335
+      objectReference: {fileID: 0}
+    - target: {fileID: 603204652, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 631236266, guid: 88f3d5b951231d440a8117ba686930d0, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

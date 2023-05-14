@@ -189,6 +189,7 @@ public class UserData : MonoBehaviour
         }
 
     }
+  
     public void EditeLesson(Lesson _lesson, LessonName lessonName)
     {
         print("scoreData.Days:" + scoreData.Days.Where((a) => a.dayName == DateTime.Today.Date.DayOfWeek.ToString()).ToList()[0].dayName);
