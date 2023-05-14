@@ -77,8 +77,8 @@ By using the Unity game engine which provides us with a powerful cross-platform 
  
    #### Login Credentials:
    <ul>
-<li>The Email:</li>
-<li>The Password:</li>
+<li>The Email:autismeappcontact@gmail.com</li>
+<li>The Password:Autisme14</li>
  </ul>
   
 ### Our GitHub repository 
